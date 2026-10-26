@@ -841,5 +841,19 @@ $databases['default']['default'] = array(
 );
 $settings['config_sync_directory'] = '../config/sync';
 
+// Contraseña del SMTP de Symfony Mailer Lite (el resto está en config/sync).
+$config['symfony_mailer_lite.symfony_mailer_lite_transport.smtp']['configuration']['pass'] = '';
+
+// En local los correos van a Mailpit (ddev mailpit), no al SMTP real.
+if (getenv('IS_DDEV_PROJECT') == 'true') {
+  $config['symfony_mailer_lite.settings']['default_transport'] = 'native';
+}
+
 
 // $settings['memcache']['servers'] = ['127.0.0.1:11211' => 'default'];
+
+// Automatically generated include for settings managed by ddev.
+$ddev_settings = __DIR__ . '/settings.ddev.php';
+if (getenv('IS_DDEV_PROJECT') == 'true' && is_readable($ddev_settings)) {
+  require $ddev_settings;
+}
