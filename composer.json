@@ -32,6 +32,7 @@
         "drupal/pathauto": "^1.15",
         "drupal/redirect": "^1.13",
         "drupal/token": "^1.17",
+        "drupal/turnstile": "^1.2",
         "drupal/views_bulk_operations": "^4.4",
         "drupal/webform": "^6.3",
         "drupal/xmlsitemap": "^2.0",

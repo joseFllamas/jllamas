@@ -1,0 +1,1 @@
+open_basedir = /var/www0/jllamas-com.b476.odisean.com/:/var/tmp/:/tmp/
