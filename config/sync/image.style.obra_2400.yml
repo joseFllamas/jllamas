@@ -1,0 +1,21 @@
+uuid: 12bfc993-7df0-421e-9144-4130deaacc67
+langcode: es
+status: true
+dependencies: {  }
+name: obra_2400
+label: 'Obra 2400 px'
+effects:
+  05e73d90-dd79-42f8-9e5f-e1933fdd3940:
+    uuid: 05e73d90-dd79-42f8-9e5f-e1933fdd3940
+    id: image_scale
+    weight: 0
+    data:
+      width: 2400
+      height: null
+      upscale: false
+  585d1830-4a21-41d2-a82e-eb202a134cb4:
+    uuid: 585d1830-4a21-41d2-a82e-eb202a134cb4
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp

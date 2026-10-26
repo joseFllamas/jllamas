@@ -1,0 +1,87 @@
+id: jllamas_obras
+label: 'Obras (cuadros, ilustraciones y decoración)'
+migration_group: jllamas
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  data_parser_plugin: json
+  urls:
+    - modules/custom/jllamas_migrate/data/obras.json
+  item_selector: ''
+  fields:
+    - { name: nid, label: 'Nid', selector: nid }
+    - { name: title, label: 'Título', selector: title }
+    - { name: categoria, label: 'Clave de la categoría', selector: categoria }
+    - { name: tematicas, label: 'Temáticas', selector: tematicas }
+    - { name: medidas, label: 'Medidas', selector: medidas }
+    - { name: descripcion, label: 'Descripción', selector: descripcion }
+    - { name: destacada, label: 'Destacada', selector: destacada }
+    - { name: created, label: 'Creada', selector: created }
+    - { name: changed, label: 'Modificada', selector: changed }
+    - { name: alias, label: 'URL nueva', selector: alias }
+  ids:
+    nid:
+      type: integer
+process:
+  # Se conserva el nid de Drupal 7: /node/20 sigue siendo Besalú.
+  nid: nid
+  type:
+    plugin: default_value
+    default_value: obra
+  langcode:
+    plugin: default_value
+    default_value: es
+  title: title
+  uid:
+    plugin: default_value
+    default_value: 1
+  status:
+    plugin: default_value
+    default_value: 1
+  created: created
+  changed: changed
+  field_categoria:
+    plugin: migration_lookup
+    migration: jllamas_categorias
+    source: categoria
+    no_stub: true
+  field_tematica:
+    plugin: sub_process
+    source: tematicas
+    process:
+      target_id:
+        plugin: migration_lookup
+        migration: jllamas_tematicas
+        source: clave
+        no_stub: true
+  field_medidas: medidas
+  body/value: descripcion
+  body/format:
+    plugin: default_value
+    default_value: basic_html
+  field_destacada: destacada
+  field_imagen/target_id:
+    plugin: migration_lookup
+    migration: jllamas_ficheros
+    source: nid
+    no_stub: true
+  # El texto alternativo lo rellena jllamas_site al guardar si va vacío.
+  field_imagen/alt:
+    plugin: default_value
+    default_value: ''
+  path/alias: alias
+  path/pathauto:
+    plugin: default_value
+    default_value: 0
+destination:
+  plugin: 'entity:node'
+  default_bundle: obra
+migration_dependencies:
+  required:
+    - jllamas_categorias
+    - jllamas_tematicas
+    - jllamas_ficheros
+dependencies:
+  enforced:
+    module:
+      - jllamas_migrate

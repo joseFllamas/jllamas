@@ -1,0 +1,25 @@
+uuid: 374a4a80-2c6d-4232-a6bd-ddab19acc5c1
+langcode: es
+status: true
+dependencies:
+  config:
+    - image.style.obra_1024
+    - image.style.obra_1600
+    - image.style.obra_2400
+    - image.style.obra_640
+id: obra_fila
+label: 'Obra en la fila de destacadas'
+image_style_mappings:
+  -
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: '(min-width: 768px) 40vw, 85vw'
+      sizes_image_styles:
+        - obra_640
+        - obra_1024
+        - obra_1600
+        - obra_2400
+    breakpoint_id: responsive_image.viewport_sizing
+    multiplier: 1x
+breakpoint_group: responsive_image
+fallback_image_style: obra_1024

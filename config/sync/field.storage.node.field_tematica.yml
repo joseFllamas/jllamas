@@ -1,0 +1,20 @@
+uuid: 900707b1-fabe-4a87-b5eb-d8680edfd0a3
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_tematica
+field_name: field_tematica
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

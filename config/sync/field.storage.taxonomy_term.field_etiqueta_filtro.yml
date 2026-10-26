@@ -1,0 +1,21 @@
+uuid: 2bbc364f-14bf-4efe-bd87-53222c64ebeb
+langcode: es
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.field_etiqueta_filtro
+field_name: field_etiqueta_filtro
+entity_type: taxonomy_term
+type: string
+settings:
+  max_length: 32
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+{#
+/**
+ * @file
+ * Tarjeta de obra del mosaico (ArtCard en Lovable).
+ *
+ * Los atributos data-* los usa el filtro de js/jllamas.js.
+ */
+#}
+<div class="reveal mb-5 break-inside-avoid md:mb-8" data-obra data-categoria="{{ obra.clave_categoria }}" data-tematica="{{ obra.tematicas }}"{{ obra.oculta ? ' hidden' }}>
+  <a href="{{ obra.url }}" class="group relative block overflow-hidden">
+    <span class="art-img block transition-transform duration-[1200ms] ease-out group-hover:scale-[1.02]" style="aspect-ratio: {{ obra.ancho }} / {{ obra.alto }}">{{ obra.imagen }}</span>
+    <span class="pointer-events-none absolute inset-x-0 bottom-0 block translate-y-2 bg-gradient-to-t from-viewer/70 to-transparent p-4 text-viewer-foreground opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100 group-focus-visible:opacity-100">
+      <span class="block font-display text-lg leading-tight">{{ obra.titulo }}</span>
+      <span class="block text-xs opacity-80">{{ obra.categoria }}</span>
+    </span>
+  </a>
+  <div class="mt-2 flex justify-between gap-3 text-xs text-muted-foreground lg:hidden">
+    <span class="text-foreground">{{ obra.titulo }}</span>
+    <span>{{ obra.categoria }}</span>
+  </div>
+</div>

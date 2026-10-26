@@ -1,0 +1,33 @@
+_core:
+  default_config_hash: _smos8pADCVpEzLrtF4RmIviUfr_yytbKYCnlay5i3g
+langcode: es
+autorretrato: 56
+retratos_categoria: retrato-pop
+sobre_mi: 200
+encargos: 201
+servicios:
+  -
+    titulo: 'Para tu negocio'
+    texto: 'Un nuevo aire para el interior, el escaparate o ese rincón desaprovechado. Murales y elementos que singularizan tu local.'
+    obra: 115
+    tipo: 'Mural o decoración'
+  -
+    titulo: 'Cuadros y retratos'
+    texto: 'Tener o regalar un retrato personalizado, ese paisaje real o imaginario.'
+    obra: 64
+    tipo: Retrato
+  -
+    titulo: 'Paredes y puertas'
+    texto: 'Disimular, tapar o singularizar esa pared o puerta sin dejar de utilizarla.'
+    obra: 122
+    tipo: 'Mural o decoración'
+  -
+    titulo: Ilustración
+    texto: 'Ilustración editorial y publicitaria, adaptada al soporte en el que se va a reproducir.'
+    obra: 90
+    tipo: Ilustración
+  -
+    titulo: 'Restauración de muebles'
+    texto: 'Restauración y retapizado de butacas, taburetes y otros muebles.'
+    obra: 127
+    tipo: Restauración

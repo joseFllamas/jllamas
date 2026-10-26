@@ -1,0 +1,23 @@
+name: jllamas
+type: theme
+'base theme': false
+version: 1.0.0
+description: 'Tema de la web de José Gabriel Llamas, con el diseño del prototipo de Lovable (plans/nueva_web).'
+core_version_requirement: ^11
+generator: 'starterkit_theme:11.4.11'
+libraries:
+  - jllamas/global
+libraries-extend:
+  core/drupal.dropbutton:
+    - jllamas/dropbutton
+  core/drupal.dialog:
+    - jllamas/dialog
+  file/drupal.file:
+    - jllamas/file
+  core/drupal.progress:
+    - jllamas/progress
+regions:
+  highlighted: Mensajes
+  title: 'Título de página'
+  tabs: 'Pestañas de edición'
+  content: Contenido

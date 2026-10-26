@@ -1,0 +1,19 @@
+uuid: 81c477dd-9365-489f-8cb3-05168c05d20c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_singular
+    - taxonomy.vocabulary.categorias
+id: taxonomy_term.categorias.field_singular
+field_name: field_singular
+entity_type: taxonomy_term
+bundle: categorias
+label: 'Nombre en singular'
+description: 'Solo para las secciones: "Cuadro", "Ilustración" o "Decoración".'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,20 @@
+jllamas_site.inicio:
+  path: '/inicio'
+  defaults:
+    _controller: '\Drupal\jllamas_site\Controller\PaginasController::inicio'
+    _title: 'Inicio'
+  requirements:
+    _permission: 'access content'
+
+jllamas_site.retratos:
+  path: '/retratos'
+  defaults:
+    _controller: '\Drupal\jllamas_site\Controller\PaginasController::retratos'
+    _title: 'Retratos por encargo'
+  requirements:
+    _permission: 'access content'
+
+# Una ruta por sección (/cuadros, /ilustraciones, /decoracion), creada a partir
+# de los términos raíz de Categorías.
+route_callbacks:
+  - '\Drupal\jllamas_site\Routing\RutasSecciones::routes'

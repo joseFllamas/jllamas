@@ -1,0 +1,23 @@
+uuid: 913b0f0e-d7a6-4e31-9208-ff14322739d1
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.obra
+  module:
+    - node
+id: obra
+label: Obras
+type: 'canonical_entities:node'
+pattern: '/[node:field_categoria:entity:root:field_clave]/[node:title]'
+selection_criteria:
+  5b217874-e207-4c33-821d-52054c0c37cb:
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      obra: obra
+selection_logic: and
+weight: 0
+relationships: {  }

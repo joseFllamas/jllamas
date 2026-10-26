@@ -1,0 +1,13 @@
+langcode: es
+status: true
+dependencies:
+  enforced:
+    module:
+      - jllamas_admin
+  module:
+    - node
+id: jllamas_destacar_obra
+label: 'Destacar en Inicio'
+type: node
+plugin: jllamas_destacar_obra
+configuration: {  }

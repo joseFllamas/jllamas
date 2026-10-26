@@ -1,0 +1,25 @@
+uuid: 5b5d4f88-c5a2-41d0-ba8a-bd16f0b5724d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tematica
+    - node.type.obra
+    - taxonomy.vocabulary.tematicas
+id: node.obra.field_tematica
+field_name: field_tematica
+entity_type: node
+bundle: obra
+label: Temática
+description: 'Solo para cuadros. Se pueden marcar varias.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tematicas: tematicas
+    auto_create: false
+field_type: entity_reference

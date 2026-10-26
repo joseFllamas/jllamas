@@ -1,0 +1,11 @@
+uuid: 1f2c7d67-a457-45d0-b7ef-80da60a94c7d
+langcode: es
+status: true
+dependencies: {  }
+name: Página
+type: page
+description: 'Páginas de texto como Sobre mí o Encargos.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

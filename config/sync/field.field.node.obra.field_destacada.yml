@@ -1,0 +1,23 @@
+uuid: 5d0f4473-4f3b-40cb-9365-3657ca810769
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_destacada
+    - node.type.obra
+id: node.obra.field_destacada
+field_name: field_destacada
+entity_type: node
+bundle: obra
+label: Destacada
+description: 'Las obras destacadas salen en la portada (imagen grande y fila de destacadas).'
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Sí
+  off_label: 'No'
+field_type: boolean

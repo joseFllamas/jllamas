@@ -1,0 +1,16 @@
+uuid: f5cb4206-78a7-40c7-877c-c12d91372db4
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: Global
+tags:
+  title: '[current-page:title] | jllamas, José Gabriel Llamas'
+  canonical_url: '[current-page:url:absolute]'
+  og_site_name: jllamas
+  og_type: website
+  og_title: '[current-page:title] | jllamas, José Gabriel Llamas'
+  og_url: '[current-page:url:absolute]'
+  twitter_cards_type: summary_large_image

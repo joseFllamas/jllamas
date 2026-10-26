@@ -1,0 +1,39 @@
+{#
+/**
+ * @file
+ * Página de sección con filtros (SectionPage en Lovable).
+ *
+ * Los chips son enlaces normales (funcionan sin JavaScript); js/jllamas.js
+ * filtra en el navegador, actualiza los recuentos y la URL sin recargar.
+ */
+#}
+<main class="mx-auto max-w-[1500px] px-5 md:px-10" data-seccion data-url="{{ url }}">
+  <section class="pb-10 pt-10 md:pb-16 md:pt-20">
+    <p class="eyebrow"><span data-total>{{ total }}</span> obras</p>
+    <h1 class="mt-3 text-6xl font-light md:text-8xl">{{ titulo }}</h1>
+    {% if intro %}
+      <p class="mt-5 max-w-xl text-muted-foreground">{{ intro }}</p>
+    {% endif %}
+  </section>
+
+  <div class="mb-10 space-y-4 border-y py-5">
+    {% for grupo in grupos %}
+      <div class="flex flex-wrap items-center gap-2" data-grupo="{{ grupo.clave }}" data-campo="{{ grupo.campo }}">
+        <span class="eyebrow mr-2 w-20">{{ grupo.etiqueta }}</span>
+        <a href="{{ grupo.url_todas }}" class="chip{{ activos[grupo.clave] is empty ? ' is-active' }}" data-valor="">Todas</a>
+        {% for opcion in grupo.opciones %}
+          <a href="{{ opcion.url }}" class="chip{{ opcion.activa ? ' is-active' }}{{ opcion.total == 0 ? ' is-empty' }}" data-valor="{{ opcion.valor }}" aria-pressed="{{ opcion.activa ? 'true' : 'false' }}">
+            {{ opcion.etiqueta }} <span class="ml-1 opacity-60" data-recuento>{{ opcion.total }}</span>
+          </a>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="columns-2 gap-5 md:columns-3 md:gap-8 xl:columns-4">
+    {% for obra in obras %}
+      {{ include('@jllamas_site/jllamas-tarjeta.html.twig', {obra: obra}) }}
+    {% endfor %}
+  </div>
+  <p class="py-20 text-center text-muted-foreground" data-vacio{{ total > 0 ? ' hidden' }}>No hay obras con esta combinación de filtros.</p>
+</main>

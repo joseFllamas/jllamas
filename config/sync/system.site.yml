@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: es
+uuid: 20e3ce6c-7c62-4238-ad00-e89b9bd5f677
+name: jllamas
+mail: no-reply@jllamas-d11.ddev.site
+slogan: 'José Gabriel Llamas, pintor e ilustrador'
+page:
+  403: ''
+  404: ''
+  front: /inicio
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: es
+mail_notification: null

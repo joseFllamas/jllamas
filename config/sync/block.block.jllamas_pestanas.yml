@@ -1,0 +1,20 @@
+uuid: b71ddb51-673a-4348-9b47-a4561ef15cad
+langcode: es
+status: true
+dependencies:
+  theme:
+    - jllamas
+id: jllamas_pestanas
+theme: jllamas
+region: tabs
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: jllamas_pestanas
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

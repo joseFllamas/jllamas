@@ -1,0 +1,32 @@
+{#
+/**
+ * @file
+ * Cómo funciona un encargo (Process en Lovable).
+ */
+#}
+<section class="mx-auto max-w-[1500px] px-5 md:px-10">
+  <h2 class="text-4xl font-light md:text-6xl">{{ titulo }}</h2>
+  <ol class="mt-12 grid gap-10 md:grid-cols-3">
+    <li class="border-t pt-6">
+      <span class="font-display text-primary">01</span>
+      <h3 class="mt-3 text-2xl">Me cuentas qué necesitas</h3>
+      <p class="mt-3 text-muted-foreground">Una idea, un espacio, una foto o un encargo concreto. Hablamos sin compromiso.</p>
+    </li>
+    <li class="border-t pt-6">
+      <span class="font-display text-primary">02</span>
+      <h3 class="mt-3 text-2xl">Propuesta y presupuesto cerrado</h3>
+      <p class="mt-3 text-muted-foreground">Te propongo técnica, soporte y medidas con un precio justo y cerrado.</p>
+    </li>
+    <li class="border-t pt-6">
+      <span class="font-display text-primary">03</span>
+      <h3 class="mt-3 text-2xl">Realización y entrega</h3>
+      <p class="mt-3 text-muted-foreground">Pinto la obra, el mural o la ilustración y te la entrego terminada.</p>
+    </li>
+  </ol>
+  <div class="mt-16 flex flex-col items-start gap-6 bg-paper-deep p-8 md:flex-row md:items-center md:justify-between md:p-14">
+    <p class="max-w-2xl font-display text-2xl font-light leading-snug md:text-3xl">
+      “Si conozco tus necesidades, seguro que encontramos una solución adecuada, y a precio justo y cerrado.”
+    </p>
+    <a href="{{ path('entity.webform.canonical', {'webform': 'contacto'}) }}" class="shrink-0 bg-primary px-7 py-3.5 text-sm text-primary-foreground hover:opacity-90">Contactar</a>
+  </div>
+</section>

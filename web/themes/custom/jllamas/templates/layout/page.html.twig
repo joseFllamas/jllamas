@@ -1,0 +1,72 @@
+{#
+/**
+ * @file
+ * Página: cabecera, menú de móvil, contenido y pie (Layout.tsx en Lovable).
+ *
+ * El menú sale del menú principal de Drupal (menu), preparado en
+ * jllamas_preprocess_page(). Los enlaces marcados "solo pie" no salen arriba.
+ */
+#}
+{% set logo %}
+  <span class="font-display text-2xl font-medium tracking-tight"><span class="text-primary">j</span>llamas</span>
+{% endset %}
+
+<header class="sticky top-0 z-40 bg-background/90 backdrop-blur-sm">
+  <div class="mx-auto flex max-w-[1500px] items-center justify-between px-5 py-4 md:px-10 md:py-6">
+    <a href="{{ path('<front>') }}" aria-label="jllamas, inicio">{{ logo }}</a>
+    <nav class="flex gap-8 text-sm max-lg:hidden" aria-label="Principal">
+      {% for item in menu|filter(i => not i.solo_pie) %}
+        <a href="{{ item.url }}" class="link-underline py-1{{ item.activo ? ' text-primary' }}"{{ item.activo ? ' aria-current="page"' }}>{{ item.titulo }}</a>
+      {% endfor %}
+    </nav>
+    <button type="button" class="lg:hidden" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu-movil" data-menu-abrir>
+      <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+  </div>
+</header>
+
+{# Fuera de header: su backdrop-filter haría que el panel fijo no cubriera la pantalla. #}
+<div id="menu-movil" class="animate-fade fixed inset-0 z-50 flex flex-col bg-background px-5 py-4" role="dialog" aria-modal="true" aria-label="Menú" hidden data-menu>
+  <div class="flex items-center justify-between">
+    {{ logo }}
+    <button type="button" aria-label="Cerrar menú" data-menu-cerrar>
+      <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <nav class="mt-16 flex flex-col gap-5" aria-label="Móvil">
+    {% for item in menu|filter(i => not i.solo_pie) %}
+      <a href="{{ item.url }}" class="font-display text-5xl{{ item.activo ? ' text-primary' }}">{{ item.titulo }}</a>
+    {% endfor %}
+  </nav>
+  <p class="mt-auto eyebrow">Encargos desde cualquier lugar</p>
+</div>
+
+{% if page.tabs %}
+  <div class="tabs-jl">{{ page.tabs }}</div>
+{% endif %}
+{% if page.highlighted %}
+  <div class="messages-jl">{{ page.highlighted }}</div>
+{% endif %}
+{% if mostrar_titulo and page.title %}
+  <div class="mx-auto max-w-[1500px] px-5 pt-10 md:px-10 md:pt-20 [&_h1]:text-6xl [&_h1]:font-light md:[&_h1]:text-8xl">{{ page.title }}</div>
+{% endif %}
+
+<div id="main-content" tabindex="-1">{{ page.content }}</div>
+
+<footer class="mt-32 border-t">
+  <div class="mx-auto grid max-w-[1500px] gap-10 px-5 py-14 md:grid-cols-3 md:px-10">
+    <div>
+      <span class="font-display text-3xl font-medium tracking-tight"><span class="text-primary">j</span>llamas</span>
+      <p class="mt-2 text-sm text-muted-foreground">José Gabriel Llamas · Pintor e ilustrador</p>
+    </div>
+    <nav class="grid grid-cols-2 gap-2 text-sm" aria-label="Pie">
+      {% for item in menu %}
+        <a href="{{ item.url }}" class="link-underline w-fit">{{ item.titulo }}</a>
+      {% endfor %}
+    </nav>
+    <div class="md:text-right">
+      <a href="{{ url_contacto }}" class="font-display text-2xl link-underline">Cuéntame tu idea →</a>
+      <p class="mt-6 text-xs text-muted-foreground">© {{ anio }} José Gabriel Llamas</p>
+    </div>
+  </div>
+</footer>

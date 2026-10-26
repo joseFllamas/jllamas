@@ -1,0 +1,25 @@
+uuid: 7ac39341-452b-43c4-ac22-8fae50b747ac
+langcode: es
+status: true
+dependencies:
+  config:
+    - image.style.obra_1024
+    - image.style.obra_1600
+    - image.style.obra_2400
+    - image.style.obra_640
+id: obra_mosaico
+label: 'Obra en mosaico'
+image_style_mappings:
+  -
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: '(min-width: 1280px) 25vw, (min-width: 768px) 33vw, 50vw'
+      sizes_image_styles:
+        - obra_640
+        - obra_1024
+        - obra_1600
+        - obra_2400
+    breakpoint_id: responsive_image.viewport_sizing
+    multiplier: 1x
+breakpoint_group: responsive_image
+fallback_image_style: obra_1024

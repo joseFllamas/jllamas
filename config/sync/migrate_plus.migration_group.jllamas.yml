@@ -1,0 +1,15 @@
+uuid: e029bb96-3192-40c6-b2d0-a7757d673ec3
+langcode: es
+status: true
+dependencies:
+  enforced:
+    module:
+      - jllamas_migrate
+_core:
+  default_config_hash: 4ZDjvWwRFpupzhaqdCz_bBpD8kUoMd7WFarUocjS_Lo
+id: jllamas
+label: 'jllamas (Drupal 7)'
+description: 'Contenido de la web antigua de jllamas, ya corregido (títulos, categorías y duplicados).'
+source_type: 'JSON y datos fijos'
+module: null
+shared_configuration: {  }

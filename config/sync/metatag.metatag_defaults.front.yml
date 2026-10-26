@@ -1,0 +1,14 @@
+uuid: 8bc7d461-5107-44b7-ad19-c426387f4c5a
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1noCXlegCr5HFehQRF1ViXy1jhU1jZ_sNN99a8Sj5jo
+id: front
+label: 'Página de Inicio'
+tags:
+  title: 'Inicio | jllamas, José Gabriel Llamas'
+  description: 'José Gabriel Llamas (jllamas), pintor, ilustrador y decorador por encargo. Cuadros, retratos, ilustración y murales para clientes de cualquier lugar, a precio justo y cerrado.'
+  og_title: 'Inicio | jllamas, José Gabriel Llamas'
+  canonical_url: '[site:url]'
+  shortlink: '[site:url]'

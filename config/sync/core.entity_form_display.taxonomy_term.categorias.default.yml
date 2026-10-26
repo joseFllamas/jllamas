@@ -1,0 +1,88 @@
+uuid: 28fbe5fe-87c8-4ce9-ae36-4053cdc1f4fd
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.categorias.field_clave
+    - field.field.taxonomy_term.categorias.field_etiqueta_filtro
+    - field.field.taxonomy_term.categorias.field_intro
+    - field.field.taxonomy_term.categorias.field_obras_portada
+    - field.field.taxonomy_term.categorias.field_singular
+    - taxonomy.vocabulary.categorias
+id: taxonomy_term.categorias.default
+targetEntityType: taxonomy_term
+bundle: categorias
+mode: default
+content:
+  field_clave:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_etiqueta_filtro:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_intro:
+    type: string_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  field_obras_portada:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_singular:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  relations:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 20
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden:
+  description: true
+  path: true

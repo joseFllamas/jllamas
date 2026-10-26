@@ -1,0 +1,16 @@
+uuid: 70185d1f-eab2-4e17-a455-fd0487875965
+langcode: es
+status: true
+dependencies:
+  module:
+    - jllamas_admin
+  enforced:
+    module:
+      - jllamas_admin
+_core:
+  default_config_hash: XoJSmVmFE37Zm3q338MlUCQy8NcAne6quEU4R17I5VU
+id: jllamas_quitar_destacada
+label: 'Quitar de destacadas'
+type: node
+plugin: jllamas_quitar_destacada
+configuration: {  }

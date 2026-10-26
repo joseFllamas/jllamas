@@ -1,0 +1,19 @@
+uuid: 23383be7-c7e3-464c-94d5-f2f5ec0c0145
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_etiqueta_filtro
+    - taxonomy.vocabulary.categorias
+id: taxonomy_term.categorias.field_etiqueta_filtro
+field_name: field_etiqueta_filtro
+entity_type: taxonomy_term
+bundle: categorias
+label: 'Nombre del filtro'
+description: 'Solo para las secciones: "Técnica" o "Tipo".'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,15 @@
+uuid: ca52b3c2-1ad9-4f32-9296-52571f51b4b4
+langcode: es
+status: true
+dependencies: {  }
+name: obra_miniatura
+label: 'Obra miniatura (administración)'
+effects:
+  f8783a6e-e3b1-4335-8174-0c0a2463c127:
+    uuid: f8783a6e-e3b1-4335-8174-0c0a2463c127
+    id: image_scale_and_crop
+    weight: 0
+    data:
+      width: 120
+      height: 120
+      anchor: center-center

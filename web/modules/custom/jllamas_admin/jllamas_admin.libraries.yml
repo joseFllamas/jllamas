@@ -1,0 +1,5 @@
+panel:
+  version: VERSION
+  css:
+    theme:
+      css/panel.css: {  }

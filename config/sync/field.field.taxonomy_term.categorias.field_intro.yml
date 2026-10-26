@@ -1,0 +1,19 @@
+uuid: 68b6f347-76b8-42ab-bf93-d7f979a2963b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_intro
+    - taxonomy.vocabulary.categorias
+id: taxonomy_term.categorias.field_intro
+field_name: field_intro
+entity_type: taxonomy_term
+bundle: categorias
+label: Introducción
+description: 'Solo para las secciones: texto bajo el título en la página de la sección y en Inicio.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

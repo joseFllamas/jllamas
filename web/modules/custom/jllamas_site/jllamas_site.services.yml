@@ -1,0 +1,9 @@
+services:
+  _defaults:
+    autowire: true
+
+  Drupal\jllamas_site\Catalogo: ~
+
+  Drupal\jllamas_site\EventSubscriber\RedireccionCategorias:
+    tags:
+      - { name: event_subscriber }

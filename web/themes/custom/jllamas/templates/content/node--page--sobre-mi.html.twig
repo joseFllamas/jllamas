@@ -1,0 +1,29 @@
+{#
+/**
+ * @file
+ * Sobre mí. La entradilla es el resumen del texto; el autorretrato sale de
+ * jllamas_site.settings (autorretrato).
+ */
+#}
+<main class="mx-auto grid max-w-[1500px] gap-12 px-5 pt-10 md:px-10 md:pt-20 lg:grid-cols-[1fr_1.3fr] lg:gap-20">
+  <div class="lg:sticky lg:top-28 lg:self-start">
+    {% if jl.autor %}
+      <span class="art-img block" style="aspect-ratio: {{ jl.autor.ancho }} / {{ jl.autor.alto }}">{{ jl.autor.imagen }}</span>
+      <p class="mt-3 text-xs text-muted-foreground">{{ jl.autor.titulo }} · {{ jl.autor.categoria }}</p>
+    {% endif %}
+  </div>
+  <article class="max-w-2xl">
+    <p class="eyebrow">{{ node.label }}</p>
+    <h1 class="mt-3 text-6xl font-light leading-[0.95] md:text-8xl">José Gabriel Llamas</h1>
+    {% if jl.entradilla %}
+      <p class="mt-8 font-display text-2xl font-light leading-snug md:text-3xl">{{ jl.entradilla }}</p>
+    {% endif %}
+    <div class="prose-jl mt-10 leading-relaxed text-muted-foreground">
+      {{ content.body }}
+    </div>
+    <div class="mt-12 flex flex-wrap gap-6">
+      <a href="{{ path('entity.node.canonical', {'node': 201}) }}" class="link-underline">Qué puedo hacer por ti →</a>
+      <a href="{{ path('entity.webform.canonical', {'webform': 'contacto'}) }}" class="link-underline text-primary">Contactar →</a>
+    </div>
+  </article>
+</main>

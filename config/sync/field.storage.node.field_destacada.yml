@@ -1,0 +1,18 @@
+uuid: 42ffcdec-28fe-4bce-81ed-88149e1f6dee
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_destacada
+field_name: field_destacada
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

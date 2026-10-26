@@ -1,0 +1,13 @@
+langcode: es
+status: true
+dependencies:
+  enforced:
+    module:
+      - jllamas_admin
+  module:
+    - node
+id: jllamas_quitar_destacada
+label: 'Quitar de destacadas'
+type: node
+plugin: jllamas_quitar_destacada
+configuration: {  }

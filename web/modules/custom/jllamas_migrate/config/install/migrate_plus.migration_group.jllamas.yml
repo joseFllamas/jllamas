@@ -1,0 +1,9 @@
+id: jllamas
+label: 'jllamas (Drupal 7)'
+description: 'Contenido de la web antigua de jllamas, ya corregido (títulos, categorías y duplicados).'
+source_type: 'JSON y datos fijos'
+shared_configuration: {  }
+dependencies:
+  enforced:
+    module:
+      - jllamas_migrate

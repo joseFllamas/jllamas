@@ -1,0 +1,56 @@
+uuid: a503c2ec-f8ad-4352-bb4d-a1fdd032c21b
+langcode: es
+status: true
+dependencies:
+  module:
+    - jllamas_admin
+    - layout_builder
+    - layout_discovery
+id: panel
+label: Panel
+description: 'Panel del pintor: añadir y gestionar obras, categorías y mensajes.'
+layout:
+  -
+    layout_id: layout_onecol
+    layout_settings:
+      label: ''
+    components:
+      6f022561-67a7-44d2-b0ba-eb43e60a3adf:
+        uuid: 6f022561-67a7-44d2-b0ba-eb43e60a3adf
+        region: content
+        configuration:
+          id: jllamas_accesos_rapidos
+          label: '¿Qué quieres hacer?'
+          label_display: visible
+          provider: jllamas_admin
+        weight: 0
+        additional: {  }
+    third_party_settings: {  }
+  -
+    layout_id: layout_twocol_section
+    layout_settings:
+      label: ''
+      column_widths: 67-33
+    components:
+      46a08156-7fae-4ea4-9b26-732e999497bb:
+        uuid: 46a08156-7fae-4ea4-9b26-732e999497bb
+        region: first
+        configuration:
+          id: jllamas_ultimas_obras
+          label: 'Últimas obras'
+          label_display: visible
+          provider: jllamas_admin
+        weight: 0
+        additional: {  }
+      ffb7e8af-2831-481e-8143-a569b91a4d19:
+        uuid: ffb7e8af-2831-481e-8143-a569b91a4d19
+        region: second
+        configuration:
+          id: jllamas_ultimos_mensajes
+          label: 'Últimos mensajes'
+          label_display: visible
+          provider: jllamas_admin
+        weight: 0
+        additional: {  }
+    third_party_settings: {  }
+weight: -10

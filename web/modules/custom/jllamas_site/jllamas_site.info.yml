@@ -1,0 +1,11 @@
+name: 'jllamas: web'
+type: module
+description: 'Inicio, secciones con filtros, retratos, fichas de obra y automatismos del catálogo de jllamas.'
+package: jllamas
+core_version_requirement: ^11
+dependencies:
+  - drupal:node
+  - drupal:taxonomy
+  - drupal:image
+  - drupal:responsive_image
+  - drupal:path_alias

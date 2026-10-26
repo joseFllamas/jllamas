@@ -1,0 +1,25 @@
+uuid: d87dd84e-f804-4a9f-930d-e8f3c9a88118
+langcode: es
+status: true
+dependencies:
+  config:
+    - image.style.obra_1024
+    - image.style.obra_1600
+    - image.style.obra_2400
+    - image.style.obra_640
+id: obra_ficha
+label: 'Obra en su ficha'
+image_style_mappings:
+  -
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: '(min-width: 1024px) 60vw, 100vw'
+      sizes_image_styles:
+        - obra_640
+        - obra_1024
+        - obra_1600
+        - obra_2400
+    breakpoint_id: responsive_image.viewport_sizing
+    multiplier: 1x
+breakpoint_group: responsive_image
+fallback_image_style: obra_1024

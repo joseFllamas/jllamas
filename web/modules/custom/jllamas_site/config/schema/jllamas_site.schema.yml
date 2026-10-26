@@ -1,0 +1,34 @@
+jllamas_site.settings:
+  type: config_object
+  label: 'Ajustes de la web de jllamas'
+  mapping:
+    autorretrato:
+      type: integer
+      label: 'Nid del autorretrato (Sobre mí e Inicio)'
+    retratos_categoria:
+      type: string
+      label: 'Clave de la categoría de Retratos por encargo'
+    sobre_mi:
+      type: integer
+      label: 'Nid de la página Sobre mí'
+    encargos:
+      type: integer
+      label: 'Nid de la página Encargos'
+    servicios:
+      type: sequence
+      label: 'Tarjetas de servicios de Encargos'
+      sequence:
+        type: mapping
+        mapping:
+          titulo:
+            type: label
+            label: 'Título'
+          texto:
+            type: text
+            label: 'Texto'
+          obra:
+            type: integer
+            label: 'Nid de la obra de la imagen'
+          tipo:
+            type: string
+            label: 'Tipo de encargo del formulario'

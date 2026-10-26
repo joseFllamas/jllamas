@@ -1,0 +1,23 @@
+uuid: 67bf1e6b-0bf8-4a49-8a95-2dfa3224903b
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.page
+  module:
+    - node
+id: pagina
+label: Páginas
+type: 'canonical_entities:node'
+pattern: '/[node:title]'
+selection_criteria:
+  92ac8a73-ba24-4af6-9b4c-2fce01726057:
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      page: page
+selection_logic: and
+weight: 0
+relationships: {  }

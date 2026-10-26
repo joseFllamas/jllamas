@@ -1,0 +1,58 @@
+id: jllamas_ficheros
+label: 'Imágenes originales de las obras'
+migration_group: jllamas
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  data_parser_plugin: json
+  urls:
+    - modules/custom/jllamas_migrate/data/obras.json
+  item_selector: ''
+  fields:
+    - { name: nid, label: 'Nid en Drupal 7', selector: nid }
+    - { name: file, label: 'Ruta en Drupal 7', selector: file }
+    - { name: destino, label: 'Nombre del fichero', selector: destino }
+    - { name: created, label: 'Fecha', selector: created }
+  ids:
+    nid:
+      type: integer
+  constants:
+    # Copia de jllamas-d7/var/www/sites/default/files (solo las 109 obras).
+    source_base: /var/www/html/migrate-source/files
+    dest_base: 'public://obras'
+process:
+  source_full_path:
+    plugin: concat
+    source:
+      - constants/source_base
+      - file
+    delimiter: /
+  destination_full_path:
+    plugin: concat
+    source:
+      - constants/dest_base
+      - destino
+    delimiter: /
+  uri:
+    plugin: file_copy
+    source:
+      - '@source_full_path'
+      - '@destination_full_path'
+    file_exists: replace
+    move: false
+  filename: destino
+  uid:
+    plugin: default_value
+    default_value: 1
+  status:
+    plugin: default_value
+    default_value: 1
+  created: created
+  changed: created
+destination:
+  plugin: 'entity:file'
+migration_dependencies: {  }
+dependencies:
+  enforced:
+    module:
+      - jllamas_migrate

@@ -1,0 +1,1994 @@
+[
+ {
+  "nid": 20,
+  "title": "Besalú",
+  "section": "cuadros",
+  "categoria": "acuarela",
+  "tematicas": [
+   {
+    "clave": "paisaje"
+   }
+  ],
+  "medidas": "100 × 120 cm",
+  "descripcion": "",
+  "destacada": 1,
+  "created": 1315768840,
+  "changed": 1315769332,
+  "file": "besalu.jpg",
+  "filename": "besalu.jpg",
+  "alias": "/cuadros/besalu",
+  "destino": "besalu.jpg"
+ },
+ {
+  "nid": 21,
+  "title": "Búho",
+  "section": "cuadros",
+  "categoria": "acuarela",
+  "tematicas": [
+   {
+    "clave": "figura"
+   }
+  ],
+  "medidas": "70 × 50 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1315768917,
+  "changed": 1319556978,
+  "file": "buho.jpg",
+  "filename": "buho.jpg",
+  "alias": "/cuadros/buho",
+  "destino": "buho.jpg"
+ },
+ {
+  "nid": 22,
+  "title": "Los Arcos",
+  "section": "cuadros",
+  "categoria": "acuarela",
+  "tematicas": [
+   {
+    "clave": "paisaje"
+   }
+  ],
+  "medidas": "100 × 120 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1315769098,
+  "changed": 1315769322,
+  "file": "los_arcos.jpg",
+  "filename": "los_arcos.jpg",
+  "alias": "/cuadros/los-arcos",
+  "destino": "los_arcos.jpg"
+ },
+ {
+  "nid": 23,
+  "title": "Montilla Vieja",
+  "section": "cuadros",
+  "categoria": "acuarela",
+  "tematicas": [
+   {
+    "clave": "paisaje"
+   }
+  ],
+  "medidas": "100 × 120 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1315769157,
+  "changed": 1315769314,
+  "file": "montilla_vieja.jpg",
+  "filename": "montilla_vieja.jpg",
+  "alias": "/cuadros/montilla-vieja",
+  "destino": "montilla_vieja.jpg"
+ },
+ {
+  "nid": 24,
+  "title": "Pescador",
+  "section": "cuadros",
+  "categoria": "acuarela",
+  "tematicas": [
+   {
+    "clave": "figura"
+   }
+  ],
+  "medidas": "45 × 65 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1315769567,
+  "changed": 1316539172,
+  "file": "pescador.jpg",
+  "filename": "pescador.jpg",
+  "alias": "/cuadros/pescador",
+  "destino": "pescador.jpg"
+ },
+ {
+  "nid": 26,
+  "title": "Quedan Pocos",
+  "section": "cuadros",
+  "categoria": "acuarela",
+  "tematicas": [
+   {
+    "clave": "paisaje"
+   }
+  ],
+  "medidas": "180 × 150 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1315769680,
+  "changed": 1316371882,
+  "file": "quedan_pocos.jpg",
+  "filename": "quedan_pocos.jpg",
+  "alias": "/cuadros/quedan-pocos",
+  "destino": "quedan_pocos.jpg"
+ },
+ {
+  "nid": 27,
+  "title": "Yoli y Juan",
+  "section": "cuadros",
+  "categoria": "acuarela",
+  "tematicas": [
+   {
+    "clave": "paisaje"
+   },
+   {
+    "clave": "retrato"
+   }
+  ],
+  "medidas": "100 × 120 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1315769820,
+  "changed": 1315769820,
+  "file": "yoli_y_juan.jpg",
+  "filename": "yoli_y_juan.jpg",
+  "alias": "/cuadros/yoli-y-juan",
+  "destino": "yoli_y_juan.jpg"
+ },
+ {
+  "nid": 29,
+  "title": "Campesino",
+  "section": "cuadros",
+  "categoria": "plumilla",
+  "tematicas": [
+   {
+    "clave": "figura"
+   },
+   {
+    "clave": "paisaje"
+   }
+  ],
+  "medidas": "90 × 60 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316533064,
+  "changed": 1316533064,
+  "file": "campesino.jpg",
+  "filename": "campesino.jpg",
+  "alias": "/cuadros/campesino",
+  "destino": "campesino.jpg"
+ },
+ {
+  "nid": 30,
+  "title": "Chica de espaldas",
+  "section": "cuadros",
+  "categoria": "lapiz",
+  "tematicas": [
+   {
+    "clave": "figura"
+   }
+  ],
+  "medidas": "50 × 70 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316538063,
+  "changed": 1316538063,
+  "file": "lapiz_0.jpg",
+  "filename": "lapiz.jpg",
+  "alias": "/cuadros/chica-de-espaldas",
+  "destino": "lapiz_0.jpg"
+ },
+ {
+  "nid": 31,
+  "title": "Chica tumbada",
+  "section": "cuadros",
+  "categoria": "lapiz",
+  "tematicas": [
+   {
+    "clave": "figura"
+   }
+  ],
+  "medidas": "90 × 50 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316538223,
+  "changed": 1316538223,
+  "file": "lapiz_3_1_0.jpg",
+  "filename": "lapiz_3_1.jpg",
+  "alias": "/cuadros/chica-tumbada",
+  "destino": "lapiz_3_1_0.jpg"
+ },
+ {
+  "nid": 32,
+  "title": "Chica sentada de perfil",
+  "section": "cuadros",
+  "categoria": "lapiz",
+  "tematicas": [
+   {
+    "clave": "figura"
+   }
+  ],
+  "medidas": "40 × 30 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316538302,
+  "changed": 1316538302,
+  "file": "lapiz_1_1_0.jpg",
+  "filename": "lapiz_1_1.jpg",
+  "alias": "/cuadros/chica-sentada-de-perfil",
+  "destino": "lapiz_1_1_0.jpg"
+ },
+ {
+  "nid": 33,
+  "title": "Niñas",
+  "section": "cuadros",
+  "categoria": "lapiz",
+  "tematicas": [
+   {
+    "clave": "retrato"
+   }
+  ],
+  "medidas": "60 × 50 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316538370,
+  "changed": 1316538370,
+  "file": "ninas_b_1_0.jpg",
+  "filename": "ninas_b_1.jpg",
+  "alias": "/cuadros/ninas",
+  "destino": "ninas_b_1_0.jpg"
+ },
+ {
+  "nid": 34,
+  "title": "Niños",
+  "section": "cuadros",
+  "categoria": "lapiz",
+  "tematicas": [
+   {
+    "clave": "retrato"
+   }
+  ],
+  "medidas": "60 × 40 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316538435,
+  "changed": 1316538435,
+  "file": "ninos_b_1_0.jpg",
+  "filename": "ninos_b_1.jpg",
+  "alias": "/cuadros/ninos",
+  "destino": "ninos_b_1_0.jpg"
+ },
+ {
+  "nid": 35,
+  "title": "L'avi Siscu",
+  "section": "cuadros",
+  "categoria": "lapiz",
+  "tematicas": [
+   {
+    "clave": "retrato"
+   }
+  ],
+  "medidas": "40 × 30 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316538570,
+  "changed": 1316538570,
+  "file": "avi_siscu_1_0.jpg",
+  "filename": "avi_siscu_1.jpg",
+  "alias": "/cuadros/l-avi-siscu",
+  "destino": "avi_siscu_1_0.jpg"
+ },
+ {
+  "nid": 36,
+  "title": "Qué rápido pasa",
+  "section": "cuadros",
+  "categoria": "lapiz",
+  "tematicas": [
+   {
+    "clave": "figura"
+   }
+  ],
+  "medidas": "20 × 30 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316538747,
+  "changed": 1316538747,
+  "file": "manos.jpg",
+  "filename": "manos.jpg",
+  "alias": "/cuadros/que-rapido-pasa",
+  "destino": "manos.jpg"
+ },
+ {
+  "nid": 37,
+  "title": "Cristo de los faroles",
+  "section": "cuadros",
+  "categoria": "acuarela",
+  "tematicas": [
+   {
+    "clave": "figura"
+   },
+   {
+    "clave": "paisaje"
+   }
+  ],
+  "medidas": "70 × 50 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316539058,
+  "changed": 1316539058,
+  "file": "a_cristo_de_los_faroles.jpg",
+  "filename": "a_cristo_de_los_faroles.jpg",
+  "alias": "/cuadros/cristo-de-los-faroles",
+  "destino": "a_cristo_de_los_faroles.jpg"
+ },
+ {
+  "nid": 39,
+  "title": "Mama",
+  "section": "cuadros",
+  "categoria": "oleo",
+  "tematicas": [
+   {
+    "clave": "retrato"
+   }
+  ],
+  "medidas": "40 × 56 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316539821,
+  "changed": 1316539821,
+  "file": "mama.jpg",
+  "filename": "mama.jpg",
+  "alias": "/cuadros/mama",
+  "destino": "mama.jpg"
+ },
+ {
+  "nid": 40,
+  "title": "Beduina",
+  "section": "cuadros",
+  "categoria": "oleo",
+  "tematicas": [
+   {
+    "clave": "figura"
+   }
+  ],
+  "medidas": "90 × 120 cm",
+  "descripcion": "",
+  "destacada": 1,
+  "created": 1316539935,
+  "changed": 1316539935,
+  "file": "mujer_beduina.jpg",
+  "filename": "mujer_beduina.jpg",
+  "alias": "/cuadros/beduina",
+  "destino": "mujer_beduina.jpg"
+ },
+ {
+  "nid": 41,
+  "title": "Aborigen",
+  "section": "cuadros",
+  "categoria": "oleo",
+  "tematicas": [
+   {
+    "clave": "figura"
+   }
+  ],
+  "medidas": "60 × 80 cm",
+  "descripcion": "",
+  "destacada": 1,
+  "created": 1316540105,
+  "changed": 1316540105,
+  "file": "aborigen.jpg",
+  "filename": "aborigen.jpg",
+  "alias": "/cuadros/aborigen",
+  "destino": "aborigen.jpg"
+ },
+ {
+  "nid": 42,
+  "title": "Masai",
+  "section": "cuadros",
+  "categoria": "oleo",
+  "tematicas": [
+   {
+    "clave": "figura"
+   }
+  ],
+  "medidas": "60 × 80 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316540180,
+  "changed": 1316540180,
+  "file": "mujer_masai.jpg",
+  "filename": "mujer_masai.jpg",
+  "alias": "/cuadros/masai",
+  "destino": "mujer_masai.jpg"
+ },
+ {
+  "nid": 43,
+  "title": "Novia india",
+  "section": "cuadros",
+  "categoria": "oleo",
+  "tematicas": [
+   {
+    "clave": "figura"
+   }
+  ],
+  "medidas": "60 × 80 cm",
+  "descripcion": "",
+  "destacada": 1,
+  "created": 1316540280,
+  "changed": 1316540280,
+  "file": "novia_indu.jpg",
+  "filename": "novia_indu.jpg",
+  "alias": "/cuadros/novia-india",
+  "destino": "novia_indu.jpg"
+ },
+ {
+  "nid": 44,
+  "title": "Novia pakistaní",
+  "section": "cuadros",
+  "categoria": "oleo",
+  "tematicas": [
+   {
+    "clave": "figura"
+   }
+  ],
+  "medidas": "30 × 40 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316540375,
+  "changed": 1316540375,
+  "file": "novia_pakist.jpg",
+  "filename": "novia_pakist.jpg",
+  "alias": "/cuadros/novia-pakistani",
+  "destino": "novia_pakist.jpg"
+ },
+ {
+  "nid": 45,
+  "title": "Bodegón",
+  "section": "cuadros",
+  "categoria": "oleo",
+  "tematicas": [
+   {
+    "clave": "paisaje"
+   }
+  ],
+  "medidas": "74 × 54 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316540635,
+  "changed": 1316540635,
+  "file": "bodegon.jpg",
+  "filename": "bodegon.jpg",
+  "alias": "/cuadros/bodegon",
+  "destino": "bodegon.jpg"
+ },
+ {
+  "nid": 46,
+  "title": "Interior de librería",
+  "section": "cuadros",
+  "categoria": "oleo",
+  "tematicas": [
+   {
+    "clave": "paisaje"
+   }
+  ],
+  "medidas": "160 × 100 cm",
+  "descripcion": "",
+  "destacada": 1,
+  "created": 1316540761,
+  "changed": 1316540761,
+  "file": "interior_libreria_.jpg",
+  "filename": "interior_libreria_.jpg",
+  "alias": "/cuadros/interior-de-libreria",
+  "destino": "interior_libreria_.jpg"
+ },
+ {
+  "nid": 47,
+  "title": "Cupido guaica",
+  "section": "cuadros",
+  "categoria": "oleo",
+  "tematicas": [
+   {
+    "clave": "paisaje"
+   }
+  ],
+  "medidas": "150 × 100 cm",
+  "descripcion": "",
+  "destacada": 1,
+  "created": 1316540889,
+  "changed": 1316540889,
+  "file": "cupido_guaica.jpg",
+  "filename": "cupido_guaica.jpg",
+  "alias": "/cuadros/cupido-guaica",
+  "destino": "cupido_guaica.jpg"
+ },
+ {
+  "nid": 48,
+  "title": "La escuchuela",
+  "section": "cuadros",
+  "categoria": "oleo",
+  "tematicas": [
+   {
+    "clave": "paisaje"
+   }
+  ],
+  "medidas": "150 × 110 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316541004,
+  "changed": 1316541004,
+  "file": "la_escuchuela.jpg",
+  "filename": "la_escuchuela.jpg",
+  "alias": "/cuadros/la-escuchuela",
+  "destino": "la_escuchuela.jpg"
+ },
+ {
+  "nid": 49,
+  "title": "Musher",
+  "section": "cuadros",
+  "categoria": "oleo",
+  "tematicas": [
+   {
+    "clave": "figura"
+   },
+   {
+    "clave": "paisaje"
+   }
+  ],
+  "medidas": "100 × 50 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316541263,
+  "changed": 1316541263,
+  "file": "musher_.jpg",
+  "filename": "musher_.jpg",
+  "alias": "/cuadros/musher",
+  "destino": "musher_.jpg"
+ },
+ {
+  "nid": 50,
+  "title": "Las Ramblas, Barcelona",
+  "section": "cuadros",
+  "categoria": "oleo",
+  "tematicas": [
+   {
+    "clave": "paisaje"
+   }
+  ],
+  "medidas": "60 × 80 cm",
+  "descripcion": "",
+  "destacada": 1,
+  "created": 1316541550,
+  "changed": 1316541550,
+  "file": "las_ramblas.jpg",
+  "filename": "las_ramblas.jpg",
+  "alias": "/cuadros/las-ramblas-barcelona",
+  "destino": "las_ramblas.jpg"
+ },
+ {
+  "nid": 51,
+  "title": "Colón, Barcelona",
+  "section": "cuadros",
+  "categoria": "oleo",
+  "tematicas": [
+   {
+    "clave": "paisaje"
+   }
+  ],
+  "medidas": "60 × 80 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316541670,
+  "changed": 1316541670,
+  "file": "puerto.jpg",
+  "filename": "puerto.jpg",
+  "alias": "/cuadros/colon-barcelona",
+  "destino": "puerto.jpg"
+ },
+ {
+  "nid": 52,
+  "title": "Retrato pop 1",
+  "section": "cuadros",
+  "categoria": "retrato-pop",
+  "tematicas": [
+   {
+    "clave": "retrato"
+   }
+  ],
+  "medidas": "50 × 60 cm",
+  "descripcion": "",
+  "destacada": 1,
+  "created": 1316541859,
+  "changed": 1316541859,
+  "file": "afri.jpg",
+  "filename": "afri.jpg",
+  "alias": "/cuadros/retrato-pop-1",
+  "destino": "afri.jpg"
+ },
+ {
+  "nid": 53,
+  "title": "Retrato pop 2",
+  "section": "cuadros",
+  "categoria": "retrato-pop",
+  "tematicas": [
+   {
+    "clave": "retrato"
+   }
+  ],
+  "medidas": "50 × 60 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316541944,
+  "changed": 1316541944,
+  "file": "abdo.jpg",
+  "filename": "abdo.jpg",
+  "alias": "/cuadros/retrato-pop-2",
+  "destino": "abdo.jpg"
+ },
+ {
+  "nid": 54,
+  "title": "Retrato pop 3",
+  "section": "cuadros",
+  "categoria": "retrato-pop",
+  "tematicas": [
+   {
+    "clave": "retrato"
+   }
+  ],
+  "medidas": "50 × 60 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316542068,
+  "changed": 1316542068,
+  "file": "ana.jpg",
+  "filename": "ana.jpg",
+  "alias": "/cuadros/retrato-pop-3",
+  "destino": "ana.jpg"
+ },
+ {
+  "nid": 55,
+  "title": "Retrato pop 4",
+  "section": "cuadros",
+  "categoria": "retrato-pop",
+  "tematicas": [
+   {
+    "clave": "retrato"
+   }
+  ],
+  "medidas": "50 × 60 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316542145,
+  "changed": 1316543198,
+  "file": "bcn.jpg",
+  "filename": "bcn.jpg",
+  "alias": "/cuadros/retrato-pop-4",
+  "destino": "bcn.jpg"
+ },
+ {
+  "nid": 56,
+  "title": "Autorretrato",
+  "section": "cuadros",
+  "categoria": "retrato-pop",
+  "tematicas": [
+   {
+    "clave": "retrato"
+   }
+  ],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316542195,
+  "changed": 1316542195,
+  "file": "artist.jpg",
+  "filename": "artist.jpg",
+  "alias": "/cuadros/autorretrato",
+  "destino": "artist.jpg"
+ },
+ {
+  "nid": 57,
+  "title": "Retrato pop 6",
+  "section": "cuadros",
+  "categoria": "retrato-pop",
+  "tematicas": [
+   {
+    "clave": "retrato"
+   }
+  ],
+  "medidas": "50 × 60 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316542267,
+  "changed": 1316542267,
+  "file": "chulenis.jpg",
+  "filename": "chulenis.jpg",
+  "alias": "/cuadros/retrato-pop-6",
+  "destino": "chulenis.jpg"
+ },
+ {
+  "nid": 58,
+  "title": "Retrato pop 7",
+  "section": "cuadros",
+  "categoria": "retrato-pop",
+  "tematicas": [
+   {
+    "clave": "retrato"
+   }
+  ],
+  "medidas": "50 × 60 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316542360,
+  "changed": 1316542360,
+  "file": "dkili.jpg",
+  "filename": "dkili.jpg",
+  "alias": "/cuadros/retrato-pop-7",
+  "destino": "dkili.jpg"
+ },
+ {
+  "nid": 59,
+  "title": "Retrato pop 8",
+  "section": "cuadros",
+  "categoria": "retrato-pop",
+  "tematicas": [
+   {
+    "clave": "retrato"
+   }
+  ],
+  "medidas": "50 × 60 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316542441,
+  "changed": 1316542441,
+  "file": "kili.jpg",
+  "filename": "kili.jpg",
+  "alias": "/cuadros/retrato-pop-8",
+  "destino": "kili.jpg"
+ },
+ {
+  "nid": 60,
+  "title": "Retrato pop 9",
+  "section": "cuadros",
+  "categoria": "retrato-pop",
+  "tematicas": [
+   {
+    "clave": "retrato"
+   }
+  ],
+  "medidas": "50 × 60 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316542535,
+  "changed": 1316542535,
+  "file": "m_mar.jpg",
+  "filename": "m_mar.jpg",
+  "alias": "/cuadros/retrato-pop-9",
+  "destino": "m_mar.jpg"
+ },
+ {
+  "nid": 61,
+  "title": "Retrato pop 10",
+  "section": "cuadros",
+  "categoria": "retrato-pop",
+  "tematicas": [
+   {
+    "clave": "retrato"
+   }
+  ],
+  "medidas": "50 × 60 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316542607,
+  "changed": 1316542607,
+  "file": "margajorge.jpg",
+  "filename": "margajorge.jpg",
+  "alias": "/cuadros/retrato-pop-10",
+  "destino": "margajorge.jpg"
+ },
+ {
+  "nid": 62,
+  "title": "Retrato pop 12",
+  "section": "cuadros",
+  "categoria": "retrato-pop",
+  "tematicas": [
+   {
+    "clave": "retrato"
+   }
+  ],
+  "medidas": "60 × 50 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316542805,
+  "changed": 1316542805,
+  "file": "majose.jpg",
+  "filename": "majose.jpg",
+  "alias": "/cuadros/retrato-pop-12",
+  "destino": "majose.jpg"
+ },
+ {
+  "nid": 63,
+  "title": "Retrato pop 13",
+  "section": "cuadros",
+  "categoria": "retrato-pop",
+  "tematicas": [
+   {
+    "clave": "retrato"
+   }
+  ],
+  "medidas": "50 × 60 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316542890,
+  "changed": 1316542890,
+  "file": "txell_llamas.jpg",
+  "filename": "txell_llamas.jpg",
+  "alias": "/cuadros/retrato-pop-13",
+  "destino": "txell_llamas.jpg"
+ },
+ {
+  "nid": 64,
+  "title": "Retrato de mascota",
+  "section": "cuadros",
+  "categoria": "retrato-pop",
+  "tematicas": [
+   {
+    "clave": "retrato"
+   }
+  ],
+  "medidas": "50 × 60 cm",
+  "descripcion": "",
+  "destacada": 1,
+  "created": 1316542973,
+  "changed": 1316542973,
+  "file": "chou.jpg",
+  "filename": "chou.jpg",
+  "alias": "/cuadros/retrato-de-mascota",
+  "destino": "chou.jpg"
+ },
+ {
+  "nid": 65,
+  "title": "Retrato pop 14",
+  "section": "cuadros",
+  "categoria": "retrato-pop",
+  "tematicas": [
+   {
+    "clave": "retrato"
+   }
+  ],
+  "medidas": "50 × 60 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316543044,
+  "changed": 1316543044,
+  "file": "wa.jpg",
+  "filename": "wa.jpg",
+  "alias": "/cuadros/retrato-pop-14",
+  "destino": "wa.jpg"
+ },
+ {
+  "nid": 66,
+  "title": "Retrato pop 15",
+  "section": "cuadros",
+  "categoria": "retrato-pop",
+  "tematicas": [
+   {
+    "clave": "retrato"
+   }
+  ],
+  "medidas": "50 × 60 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316543300,
+  "changed": 1316543300,
+  "file": "robert_y_mireia.jpg",
+  "filename": "robert_y_mireia.jpg",
+  "alias": "/cuadros/retrato-pop-15",
+  "destino": "robert_y_mireia.jpg"
+ },
+ {
+  "nid": 67,
+  "title": "África",
+  "section": "cuadros",
+  "categoria": "plumilla",
+  "tematicas": [
+   {
+    "clave": "retrato"
+   }
+  ],
+  "medidas": "47 × 37 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316543481,
+  "changed": 1316543481,
+  "file": "p-afric_0.jpg",
+  "filename": "p-afric.jpg",
+  "alias": "/cuadros/africa",
+  "destino": "p-afric_0.jpg"
+ },
+ {
+  "nid": 68,
+  "title": "Figura 1",
+  "section": "cuadros",
+  "categoria": "plumilla",
+  "tematicas": [
+   {
+    "clave": "figura"
+   }
+  ],
+  "medidas": "30 × 30 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316543565,
+  "changed": 1316543565,
+  "file": "p-desn_1.jpg",
+  "filename": "p-desn_1.jpg",
+  "alias": "/cuadros/figura-1",
+  "destino": "p-desn_1.jpg"
+ },
+ {
+  "nid": 69,
+  "title": "Figura 2",
+  "section": "cuadros",
+  "categoria": "plumilla",
+  "tematicas": [
+   {
+    "clave": "figura"
+   }
+  ],
+  "medidas": "52 × 37 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316543688,
+  "changed": 1316543688,
+  "file": "p-desn_2.jpg",
+  "filename": "p-desn_2.jpg",
+  "alias": "/cuadros/figura-2",
+  "destino": "p-desn_2.jpg"
+ },
+ {
+  "nid": 70,
+  "title": "Figura 3",
+  "section": "cuadros",
+  "categoria": "plumilla",
+  "tematicas": [
+   {
+    "clave": "figura"
+   }
+  ],
+  "medidas": "35 × 57 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316543786,
+  "changed": 1316543786,
+  "file": "p-desn_3.jpg",
+  "filename": "p-desn_3.jpg",
+  "alias": "/cuadros/figura-3",
+  "destino": "p-desn_3.jpg"
+ },
+ {
+  "nid": 71,
+  "title": "El capataz",
+  "section": "cuadros",
+  "categoria": "plumilla",
+  "tematicas": [
+   {
+    "clave": "figura"
+   }
+  ],
+  "medidas": "30 × 50 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316543930,
+  "changed": 1316543930,
+  "file": "p-elcapa.jpg",
+  "filename": "p-elcapa.jpg",
+  "alias": "/cuadros/el-capataz",
+  "destino": "p-elcapa.jpg"
+ },
+ {
+  "nid": 72,
+  "title": "Dibujo",
+  "section": "cuadros",
+  "categoria": "plumilla",
+  "tematicas": [
+   {
+    "clave": "figura"
+   }
+  ],
+  "medidas": "45 × 30 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316544100,
+  "changed": 1316544100,
+  "file": "p-picaso.jpg",
+  "filename": "p-picaso.jpg",
+  "alias": "/cuadros/dibujo",
+  "destino": "p-picaso.jpg"
+ },
+ {
+  "nid": 73,
+  "title": "Santa María del Mar, Barcelona",
+  "section": "cuadros",
+  "categoria": "plumilla",
+  "tematicas": [
+   {
+    "clave": "paisaje"
+   }
+  ],
+  "medidas": "45 × 65 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316544187,
+  "changed": 1316544252,
+  "file": "p.smmar__0.jpg",
+  "filename": "p.smmar_.jpg",
+  "alias": "/cuadros/santa-maria-del-mar-barcelona",
+  "destino": "p.smmar__0.jpg"
+ },
+ {
+  "nid": 74,
+  "title": "La Pedrera",
+  "section": "cuadros",
+  "categoria": "plumilla",
+  "tematicas": [
+   {
+    "clave": "paisaje"
+   }
+  ],
+  "medidas": "34 × 41 cm",
+  "descripcion": "",
+  "destacada": 1,
+  "created": 1316544349,
+  "changed": 1316544349,
+  "file": "p-lapedr.jpg",
+  "filename": "p-lapedr.jpg",
+  "alias": "/cuadros/la-pedrera",
+  "destino": "p-lapedr.jpg"
+ },
+ {
+  "nid": 75,
+  "title": "S. Andreu",
+  "section": "cuadros",
+  "categoria": "acuarela",
+  "tematicas": [
+   {
+    "clave": "paisaje"
+   }
+  ],
+  "medidas": "60 × 40 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316544455,
+  "changed": 1316544455,
+  "file": "s_andreu.jpg",
+  "filename": "s_andreu.jpg",
+  "alias": "/cuadros/s-andreu",
+  "destino": "s_andreu.jpg"
+ },
+ {
+  "nid": 76,
+  "title": "Arcos",
+  "section": "cuadros",
+  "categoria": "acuarela",
+  "tematicas": [
+   {
+    "clave": "paisaje"
+   }
+  ],
+  "medidas": "25 × 35 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316544590,
+  "changed": 1316544590,
+  "file": "a_arcos_de_la_frontera.jpg",
+  "filename": "a_arcos_de_la_frontera.jpg",
+  "alias": "/cuadros/arcos",
+  "destino": "a_arcos_de_la_frontera.jpg"
+ },
+ {
+  "nid": 77,
+  "title": "Castillo",
+  "section": "cuadros",
+  "categoria": "acuarela",
+  "tematicas": [
+   {
+    "clave": "paisaje"
+   }
+  ],
+  "medidas": "40 × 30 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316544720,
+  "changed": 1316544720,
+  "file": "a_castillo_montilla.jpg",
+  "filename": "a_castillo_montilla.jpg",
+  "alias": "/cuadros/castillo",
+  "destino": "a_castillo_montilla.jpg"
+ },
+ {
+  "nid": 78,
+  "title": "Manzanas bordes",
+  "section": "cuadros",
+  "categoria": "acuarela",
+  "tematicas": [
+   {
+    "clave": "paisaje"
+   }
+  ],
+  "medidas": "30 × 40 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316544851,
+  "changed": 1316544851,
+  "file": "manzanas.jpg",
+  "filename": "manzanas.jpg",
+  "alias": "/cuadros/manzanas-bordes",
+  "destino": "manzanas.jpg"
+ },
+ {
+  "nid": 79,
+  "title": "Paseros",
+  "section": "cuadros",
+  "categoria": "acuarela",
+  "tematicas": [
+   {
+    "clave": "paisaje"
+   }
+  ],
+  "medidas": "70 × 52 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316544974,
+  "changed": 1316544974,
+  "file": "paseros.jpg",
+  "filename": "paseros.jpg",
+  "alias": "/cuadros/paseros",
+  "destino": "paseros.jpg"
+ },
+ {
+  "nid": 80,
+  "title": "Lucero",
+  "section": "cuadros",
+  "categoria": "acuarela",
+  "tematicas": [
+   {
+    "clave": "figura"
+   }
+  ],
+  "medidas": "45 × 65 cm",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316545090,
+  "changed": 1316545090,
+  "file": "yo_a_caballo.jpg",
+  "filename": "yo_a_caballo.jpg",
+  "alias": "/cuadros/lucero",
+  "destino": "yo_a_caballo.jpg"
+ },
+ {
+  "nid": 81,
+  "title": "Córdoba",
+  "section": "cuadros",
+  "categoria": "acuarela",
+  "tematicas": [
+   {
+    "clave": "paisaje"
+   }
+  ],
+  "medidas": "70 × 52 cm",
+  "descripcion": "",
+  "destacada": 1,
+  "created": 1316545308,
+  "changed": 1316545308,
+  "file": "puente_s._rafael_0.jpg",
+  "filename": "puente_s._rafael.jpg",
+  "alias": "/cuadros/cordoba",
+  "destino": "puente_s._rafael_0.jpg"
+ },
+ {
+  "nid": 82,
+  "title": "Arañas",
+  "section": "ilustraciones",
+  "categoria": "editorial",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316770453,
+  "changed": 1316770453,
+  "file": "aranas_tela.jpg",
+  "filename": "aranas_tela.jpg",
+  "alias": "/ilustraciones/aranas",
+  "destino": "aranas_tela.jpg"
+ },
+ {
+  "nid": 83,
+  "title": "Arañas 2",
+  "section": "ilustraciones",
+  "categoria": "editorial",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316770531,
+  "changed": 1316770531,
+  "file": "aranas.jpg",
+  "filename": "aranas.jpg",
+  "alias": "/ilustraciones/aranas-2",
+  "destino": "aranas.jpg"
+ },
+ {
+  "nid": 84,
+  "title": "Infantil 1",
+  "section": "ilustraciones",
+  "categoria": "editorial",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316770600,
+  "changed": 1316770600,
+  "file": "il_inf1.jpg",
+  "filename": "il_inf1.jpg",
+  "alias": "/ilustraciones/infantil-1",
+  "destino": "il_inf1.jpg"
+ },
+ {
+  "nid": 85,
+  "title": "Infantil 2",
+  "section": "ilustraciones",
+  "categoria": "editorial",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316770679,
+  "changed": 1316770679,
+  "file": "il_inf2.jpg",
+  "filename": "il_inf2.jpg",
+  "alias": "/ilustraciones/infantil-2",
+  "destino": "il_inf2.jpg"
+ },
+ {
+  "nid": 86,
+  "title": "Infantil 3",
+  "section": "ilustraciones",
+  "categoria": "editorial",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316771728,
+  "changed": 1316771728,
+  "file": "il_inf6.jpg",
+  "filename": "il_inf6.jpg",
+  "alias": "/ilustraciones/infantil-3",
+  "destino": "il_inf6.jpg"
+ },
+ {
+  "nid": 87,
+  "title": "Infantil 4",
+  "section": "ilustraciones",
+  "categoria": "editorial",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316771794,
+  "changed": 1316771794,
+  "file": "il_inf7.jpg",
+  "filename": "il_inf7.jpg",
+  "alias": "/ilustraciones/infantil-4",
+  "destino": "il_inf7.jpg"
+ },
+ {
+  "nid": 88,
+  "title": "Infantil 5",
+  "section": "ilustraciones",
+  "categoria": "editorial",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316771873,
+  "changed": 1316771873,
+  "file": "il_inf11.jpg",
+  "filename": "il_inf11.jpg",
+  "alias": "/ilustraciones/infantil-5",
+  "destino": "il_inf11.jpg"
+ },
+ {
+  "nid": 89,
+  "title": "Infantil 6",
+  "section": "ilustraciones",
+  "categoria": "editorial",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316772037,
+  "changed": 1316772037,
+  "file": "il_inf12.jpg",
+  "filename": "il_inf12.jpg",
+  "alias": "/ilustraciones/infantil-6",
+  "destino": "il_inf12.jpg"
+ },
+ {
+  "nid": 90,
+  "title": "Iris",
+  "section": "ilustraciones",
+  "categoria": "editorial",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 1,
+  "created": 1316772105,
+  "changed": 1316772105,
+  "file": "il1.jpg",
+  "filename": "il1.jpg",
+  "alias": "/ilustraciones/iris",
+  "destino": "il1.jpg"
+ },
+ {
+  "nid": 91,
+  "title": "Feng shui",
+  "section": "ilustraciones",
+  "categoria": "editorial",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316772169,
+  "changed": 1316772169,
+  "file": "il6.jpg",
+  "filename": "il6.jpg",
+  "alias": "/ilustraciones/feng-shui",
+  "destino": "il6.jpg"
+ },
+ {
+  "nid": 92,
+  "title": "Ruleta",
+  "section": "ilustraciones",
+  "categoria": "editorial",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316772229,
+  "changed": 1316772229,
+  "file": "il9.jpg",
+  "filename": "il9.jpg",
+  "alias": "/ilustraciones/ruleta",
+  "destino": "il9.jpg"
+ },
+ {
+  "nid": 93,
+  "title": "Reflexología",
+  "section": "ilustraciones",
+  "categoria": "editorial",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316778483,
+  "changed": 1316778483,
+  "file": "il12.jpg",
+  "filename": "il12.jpg",
+  "alias": "/ilustraciones/reflexologia",
+  "destino": "il12.jpg"
+ },
+ {
+  "nid": 94,
+  "title": "Ilustración",
+  "section": "ilustraciones",
+  "categoria": "editorial",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316778892,
+  "changed": 1316974515,
+  "file": "il8.jpg",
+  "filename": "il8.jpg",
+  "alias": "/ilustraciones/ilustracion",
+  "destino": "il8.jpg"
+ },
+ {
+  "nid": 95,
+  "title": "Manos",
+  "section": "ilustraciones",
+  "categoria": "editorial",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316778963,
+  "changed": 1316778963,
+  "file": "manos_0.jpg",
+  "filename": "manos.jpg",
+  "alias": "/ilustraciones/manos",
+  "destino": "manos_0.jpg"
+ },
+ {
+  "nid": 96,
+  "title": "Big Ben",
+  "section": "ilustraciones",
+  "categoria": "otros",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316779071,
+  "changed": 1316779071,
+  "file": "b_ben.jpg",
+  "filename": "b_ben.jpg",
+  "alias": "/ilustraciones/big-ben",
+  "destino": "b_ben.jpg"
+ },
+ {
+  "nid": 97,
+  "title": "Puente de Londres",
+  "section": "ilustraciones",
+  "categoria": "otros",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316779161,
+  "changed": 1316779161,
+  "file": "p.ondres.jpg",
+  "filename": "p.ondres.jpg",
+  "alias": "/ilustraciones/puente-de-londres",
+  "destino": "p.ondres.jpg"
+ },
+ {
+  "nid": 98,
+  "title": "Notre Dame",
+  "section": "ilustraciones",
+  "categoria": "otros",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316779222,
+  "changed": 1316779222,
+  "file": "n_dame.jpg",
+  "filename": "n_dame.jpg",
+  "alias": "/ilustraciones/notre-dame",
+  "destino": "n_dame.jpg"
+ },
+ {
+  "nid": 100,
+  "title": "Sistema circulatorio",
+  "section": "ilustraciones",
+  "categoria": "otros",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316779435,
+  "changed": 1316779435,
+  "file": "il21.jpg",
+  "filename": "il21.jpg",
+  "alias": "/ilustraciones/sistema-circulatorio",
+  "destino": "il21.jpg"
+ },
+ {
+  "nid": 101,
+  "title": "Esqueleto",
+  "section": "ilustraciones",
+  "categoria": "otros",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316779518,
+  "changed": 1316779518,
+  "file": "il25.jpg",
+  "filename": "il25.jpg",
+  "alias": "/ilustraciones/esqueleto",
+  "destino": "il25.jpg"
+ },
+ {
+  "nid": 102,
+  "title": "Músculos",
+  "section": "ilustraciones",
+  "categoria": "otros",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316779612,
+  "changed": 1316779612,
+  "file": "il24.jpg",
+  "filename": "il24.jpg",
+  "alias": "/ilustraciones/musculos",
+  "destino": "il24.jpg"
+ },
+ {
+  "nid": 103,
+  "title": "Corazón",
+  "section": "ilustraciones",
+  "categoria": "otros",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316779711,
+  "changed": 1316779711,
+  "file": "il20.jpg",
+  "filename": "il20.jpg",
+  "alias": "/ilustraciones/corazon",
+  "destino": "il20.jpg"
+ },
+ {
+  "nid": 104,
+  "title": "Cráneo",
+  "section": "ilustraciones",
+  "categoria": "otros",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316779934,
+  "changed": 1316779934,
+  "file": "craneo.jpg",
+  "filename": "craneo.jpg",
+  "alias": "/ilustraciones/craneo",
+  "destino": "craneo.jpg"
+ },
+ {
+  "nid": 105,
+  "title": "Serie X, 1",
+  "section": "ilustraciones",
+  "categoria": "editorial",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316780004,
+  "changed": 1316974128,
+  "file": "chicas_005.jpg",
+  "filename": "chicas_005.jpg",
+  "alias": "/ilustraciones/serie-x-1",
+  "destino": "chicas_005.jpg"
+ },
+ {
+  "nid": 106,
+  "title": "Serie X, 2",
+  "section": "ilustraciones",
+  "categoria": "editorial",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316780090,
+  "changed": 1316974162,
+  "file": "chica1.jpg",
+  "filename": "chica1.jpg",
+  "alias": "/ilustraciones/serie-x-2",
+  "destino": "chica1.jpg"
+ },
+ {
+  "nid": 107,
+  "title": "Serie X, 3",
+  "section": "ilustraciones",
+  "categoria": "editorial",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316780210,
+  "changed": 1316974173,
+  "file": "chicas_016.jpg",
+  "filename": "chicas_016.jpg",
+  "alias": "/ilustraciones/serie-x-3",
+  "destino": "chicas_016.jpg"
+ },
+ {
+  "nid": 108,
+  "title": "Serie X, 4",
+  "section": "ilustraciones",
+  "categoria": "editorial",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1316780352,
+  "changed": 1316974191,
+  "file": "chicas_027.jpg",
+  "filename": "chicas_027.jpg",
+  "alias": "/ilustraciones/serie-x-4",
+  "destino": "chicas_027.jpg"
+ },
+ {
+  "nid": 111,
+  "title": "Historia de la escritura",
+  "section": "decoracion",
+  "categoria": "negocios-y-tiendas",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "Mural de 300x480cm realizado en técnica mixta sobre madera",
+  "destacada": 1,
+  "created": 1317487404,
+  "changed": 1317487514,
+  "file": "field/image/escritura.jpg",
+  "filename": "escritura.jpg",
+  "alias": "/decoracion/historia-de-la-escritura",
+  "destino": "escritura.jpg"
+ },
+ {
+  "nid": 112,
+  "title": "Ofrenda de comida al faraón",
+  "section": "decoracion",
+  "categoria": "negocios-y-tiendas",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "Mural 120x240cms realizado óleo sobre madera técnica mixta.",
+  "destacada": 0,
+  "created": 1317487906,
+  "changed": 1317487906,
+  "file": "field/image/egipcio.jpg",
+  "filename": "egipcio.jpg",
+  "alias": "/decoracion/ofrenda-de-comida-al-faraon",
+  "destino": "egipcio.jpg"
+ },
+ {
+  "nid": 113,
+  "title": "Figuras griegas 2",
+  "section": "decoracion",
+  "categoria": "negocios-y-tiendas",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "Mural 120x480cm realizado sobre madera técnica mixta",
+  "destacada": 0,
+  "created": 1317488078,
+  "changed": 1319825813,
+  "file": "field/image/griegos.jpg",
+  "filename": "griegos.jpg",
+  "alias": "/decoracion/figuras-griegas-2",
+  "destino": "griegos.jpg"
+ },
+ {
+  "nid": 115,
+  "title": "Tejados del barrio de Gràcia",
+  "section": "decoracion",
+  "categoria": "negocios-y-tiendas",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "Mural de 150x480 realizado con acrílicos sobre pared",
+  "destacada": 0,
+  "created": 1317488705,
+  "changed": 1317493275,
+  "file": "field/image/gracia1.jpg",
+  "filename": "gracia1.jpg",
+  "alias": "/decoracion/tejados-del-barrio-de-gracia",
+  "destino": "gracia1.jpg"
+ },
+ {
+  "nid": 116,
+  "title": "Cubilete",
+  "section": "decoracion",
+  "categoria": "negocios-y-tiendas",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "Mural circular de 280cm altura realizado con acrílicos sobre pared",
+  "destacada": 0,
+  "created": 1317488950,
+  "changed": 1317493298,
+  "file": "field/image/pinceles_pared.jpg",
+  "filename": "pinceles_pared.jpg",
+  "alias": "/decoracion/cubilete",
+  "destino": "pinceles_pared.jpg"
+ },
+ {
+  "nid": 117,
+  "title": "Bodega",
+  "section": "decoracion",
+  "categoria": "negocios-y-tiendas",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "Mural 240x250 realizado en acrílico sobre pared.",
+  "destacada": 0,
+  "created": 1317489187,
+  "changed": 1317489187,
+  "file": "field/image/pintdec5.jpg",
+  "filename": "pintdec5.jpg",
+  "alias": "/decoracion/bodega",
+  "destino": "pintdec5.jpg"
+ },
+ {
+  "nid": 118,
+  "title": "Toscana",
+  "section": "decoracion",
+  "categoria": "negocios-y-tiendas",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "Mural realizado en acrílico sobre pared",
+  "destacada": 0,
+  "created": 1317490237,
+  "changed": 1317490237,
+  "file": "field/image/almacen_k.jpg",
+  "filename": "almacen_k.jpg",
+  "alias": "/decoracion/toscana",
+  "destino": "almacen_k.jpg"
+ },
+ {
+  "nid": 119,
+  "title": "Puerta",
+  "section": "decoracion",
+  "categoria": "negocios-y-tiendas",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "Realizado en acrilico sobre sobre puerta madera",
+  "destacada": 0,
+  "created": 1317490629,
+  "changed": 1317490629,
+  "file": "field/image/puerta.jpg",
+  "filename": "puerta.jpg",
+  "alias": "/decoracion/puerta",
+  "destino": "puerta.jpg"
+ },
+ {
+  "nid": 120,
+  "title": "Puente de Rialto, Venecia",
+  "section": "decoracion",
+  "categoria": "negocios-y-tiendas",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "Mural de 200x150cm relizado en acrílico sobre pared (interior despacho)",
+  "destacada": 1,
+  "created": 1317491063,
+  "changed": 1317491063,
+  "file": "field/image/mural_venecia.jpg",
+  "filename": "mural_venecia.jpg",
+  "alias": "/decoracion/puente-de-rialto-venecia",
+  "destino": "mural_venecia.jpg"
+ },
+ {
+  "nid": 121,
+  "title": "Carta de bar restaurante",
+  "section": "decoracion",
+  "categoria": "negocios-y-tiendas",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "Escritiura sobre madera",
+  "destacada": 0,
+  "created": 1317491288,
+  "changed": 1317491288,
+  "file": "field/image/frankfurt_horta2.jpg",
+  "filename": "frankfurt_horta2.jpg",
+  "alias": "/decoracion/carta-de-bar-restaurante",
+  "destino": "frankfurt_horta2.jpg"
+ },
+ {
+  "nid": 122,
+  "title": "Puerta 2",
+  "section": "decoracion",
+  "categoria": "negocios-y-tiendas",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "Realizado en acrílico sobre puerta.",
+  "destacada": 0,
+  "created": 1317492109,
+  "changed": 1317492109,
+  "file": "field/image/puerta_2.jpg",
+  "filename": "puerta_2.jpg",
+  "alias": "/decoracion/puerta-2",
+  "destino": "puerta_2.jpg"
+ },
+ {
+  "nid": 123,
+  "title": "Detalle puerta 2",
+  "section": "decoracion",
+  "categoria": "negocios-y-tiendas",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "Detalle central",
+  "destacada": 0,
+  "created": 1317492240,
+  "changed": 1317492240,
+  "file": "field/image/detalle_puerta_2.jpg",
+  "filename": "detalle_puerta_2.jpg",
+  "alias": "/decoracion/detalle-puerta-2",
+  "destino": "detalle_puerta_2.jpg"
+ },
+ {
+  "nid": 124,
+  "title": "Madona",
+  "section": "decoracion",
+  "categoria": "particulares",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "Oleo sobre madera 120x180cms",
+  "destacada": 0,
+  "created": 1318615179,
+  "changed": 1318615179,
+  "file": "field/image/madonna_ortodox_0.jpg",
+  "filename": "madonna_ortodox.jpg",
+  "alias": "/decoracion/madona",
+  "destino": "madonna_ortodox_0.jpg"
+ },
+ {
+  "nid": 125,
+  "title": "Zoo infantil",
+  "section": "decoracion",
+  "categoria": "particulares",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "Acrilico sobre pared100x160cms",
+  "destacada": 0,
+  "created": 1318615491,
+  "changed": 1318615557,
+  "file": "field/image/cuarto_martina.jpg",
+  "filename": "cuarto_martina.jpg",
+  "alias": "/decoracion/zoo-infantil",
+  "destino": "cuarto_martina.jpg"
+ },
+ {
+  "nid": 126,
+  "title": "Beduinos",
+  "section": "decoracion",
+  "categoria": "particulares",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "Oleo sobre madera 240 x 240cms",
+  "destacada": 0,
+  "created": 1318615706,
+  "changed": 1318615706,
+  "file": "field/image/desierto.jpg",
+  "filename": "desierto.jpg",
+  "alias": "/decoracion/beduinos",
+  "destino": "desierto.jpg"
+ },
+ {
+  "nid": 127,
+  "title": "Butaca 1",
+  "section": "decoracion",
+  "categoria": "particulares",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "Restauración y retapizado",
+  "destacada": 0,
+  "created": 1318615932,
+  "changed": 1318615932,
+  "file": "field/image/sofa.jpg",
+  "filename": "sofa.jpg",
+  "alias": "/decoracion/butaca-1",
+  "destino": "sofa.jpg"
+ },
+ {
+  "nid": 128,
+  "title": "Butaca 2",
+  "section": "decoracion",
+  "categoria": "particulares",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "Restauración y retapizado",
+  "destacada": 0,
+  "created": 1318616084,
+  "changed": 1318616084,
+  "file": "field/image/sillon.jpg",
+  "filename": "sillon.jpg",
+  "alias": "/decoracion/butaca-2",
+  "destino": "sillon.jpg"
+ },
+ {
+  "nid": 129,
+  "title": "Taburete",
+  "section": "decoracion",
+  "categoria": "particulares",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "Restauración y retapizado",
+  "destacada": 0,
+  "created": 1318616165,
+  "changed": 1318616165,
+  "file": "field/image/taburete.jpg",
+  "filename": "taburete.jpg",
+  "alias": "/decoracion/taburete",
+  "destino": "taburete.jpg"
+ },
+ {
+  "nid": 131,
+  "title": "Tren navideño",
+  "section": "ilustraciones",
+  "categoria": "publicidad",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1322908210,
+  "changed": 1322908210,
+  "file": "publicidad_1.jpg",
+  "filename": "publicidad_1.jpg",
+  "alias": "/ilustraciones/tren-navideno",
+  "destino": "publicidad_1.jpg"
+ },
+ {
+  "nid": 134,
+  "title": "Trasera del tren",
+  "section": "ilustraciones",
+  "categoria": "publicidad",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1322908352,
+  "changed": 1322908352,
+  "file": "publicidad_2.jpg",
+  "filename": "publicidad_2.jpg",
+  "alias": "/ilustraciones/trasera-del-tren",
+  "destino": "publicidad_2.jpg"
+ },
+ {
+  "nid": 135,
+  "title": "Trasera del trineo",
+  "section": "ilustraciones",
+  "categoria": "publicidad",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1322908404,
+  "changed": 1322908404,
+  "file": "trineo_2.jpg",
+  "filename": "trineo_2.jpg",
+  "alias": "/ilustraciones/trasera-del-trineo",
+  "destino": "trineo_2.jpg"
+ },
+ {
+  "nid": 136,
+  "title": "Trineo navideño",
+  "section": "ilustraciones",
+  "categoria": "publicidad",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1322908439,
+  "changed": 1322908439,
+  "file": "trineo_1.jpg",
+  "filename": "trineo_1.jpg",
+  "alias": "/ilustraciones/trineo-navideno",
+  "destino": "trineo_1.jpg"
+ },
+ {
+  "nid": 137,
+  "title": "Árbol de Navidad 1",
+  "section": "ilustraciones",
+  "categoria": "publicidad",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1322908523,
+  "changed": 1322908523,
+  "file": "publiciad_4.jpg",
+  "filename": "publiciad_4.jpg",
+  "alias": "/ilustraciones/arbol-de-navidad-1",
+  "destino": "publiciad_4.jpg"
+ },
+ {
+  "nid": 138,
+  "title": "Árbol de Navidad 2",
+  "section": "ilustraciones",
+  "categoria": "publicidad",
+  "tematicas": [],
+  "medidas": "",
+  "descripcion": "",
+  "destacada": 0,
+  "created": 1322908638,
+  "changed": 1322908638,
+  "file": "publicidad_3.jpg",
+  "filename": "publicidad_3.jpg",
+  "alias": "/ilustraciones/arbol-de-navidad-2",
+  "destino": "publicidad_3.jpg"
+ }
+]

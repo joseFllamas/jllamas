@@ -1,0 +1,24 @@
+uuid: 8683f8cb-31f3-465d-bf62-dbd73797c6b8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.obra
+  module:
+    - text
+id: node.obra.body
+field_name: body
+entity_type: node
+bundle: obra
+label: Descripción
+description: 'Opcional: técnica, soporte, dónde está el mural...'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

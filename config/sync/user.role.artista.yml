@@ -1,0 +1,55 @@
+uuid: d7d7c6a0-15f0-4d18-af74-1c0d63c53c66
+langcode: es
+status: true
+dependencies:
+  config:
+    - dashboard.dashboard.panel
+    - filter.format.basic_html
+    - node.type.obra
+    - node.type.page
+    - taxonomy.vocabulary.categorias
+    - taxonomy.vocabulary.tematicas
+  module:
+    - contextual
+    - dashboard
+    - file
+    - filter
+    - navigation
+    - node
+    - system
+    - taxonomy
+    - webform
+id: artista
+label: Artista
+weight: 4
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access navigation'
+  - 'access taxonomy overview'
+  - 'access webform overview'
+  - 'administer nodes'
+  - 'create obra content'
+  - 'create terms in categorias'
+  - 'create terms in tematicas'
+  - 'delete any obra content'
+  - 'delete any webform submission'
+  - 'delete terms in categorias'
+  - 'delete terms in tematicas'
+  - 'edit any obra content'
+  - 'edit any page content'
+  - 'edit any webform submission'
+  - 'edit terms in categorias'
+  - 'edit terms in tematicas'
+  - 'revert obra revisions'
+  - 'revert page revisions'
+  - 'use text format basic_html'
+  - 'view any webform submission'
+  - 'view obra revisions'
+  - 'view own unpublished content'
+  - 'view page revisions'
+  - 'view panel dashboard'
+  - 'view the administration theme'

@@ -1,0 +1,56 @@
+id: jllamas_paginas
+label: 'Páginas Sobre mí y Encargos'
+migration_group: jllamas
+source:
+  plugin: embedded_data
+  data_rows:
+    - nid: 200
+      titulo: 'Sobre mí'
+      alias: /sobre-mi
+      entradilla: 'Dibujo, pintura e ilustración aplicados a las necesidades de tu empresa, tu negocio o tu casa.'
+      texto: |
+        <p>Estudié Artes Gráficas y me especialicé en encuadernación de lujo, encuadernación antigua y restauración, una formación que da mucha importancia al dibujo.</p>
+        <p>Desde 1974 trabajo en el mundo editorial y, por tanto, con todos los sistemas de reproducción según el tipo de original: transparencias, dibujo a lápiz, tinta, acuarela, témperas y óleos, y también con el soporte en el que se iba a imprimir.</p>
+        <p>Recibir de forma continua tantos originales en técnicas y soportes distintos me mostró el amplísimo campo en el que se puede aplicar el dibujo o la pintura, dentro y fuera del sector.</p>
+        <p>Con los años he utilizado soportes y técnicas diferentes para cada necesidad: no es lo mismo un folleto publicitario que un stand, ni una ilustración para un libro o un cuento que un mural para un restaurante.</p>
+        <p>En todo este tiempo he hecho trabajos muy variados: ilustraciones para editoriales, exposiciones de pintura, cuadros personalizados, stands, decoración de interiores para diversos negocios, y murales e interiores para particulares y profesionales.</p>
+    - nid: 201
+      titulo: Encargos
+      alias: /encargos
+      entradilla: '¿Darle un nuevo aire a tu negocio? ¿Potenciar la personalidad de tu local?'
+      texto: '<p>Estas son algunas de las cosas que se pueden hacer. Contacta conmigo sin ningún compromiso: seguro que encontramos la mejor solución.</p>'
+  ids:
+    nid:
+      type: integer
+process:
+  nid: nid
+  type:
+    plugin: default_value
+    default_value: page
+  langcode:
+    plugin: default_value
+    default_value: es
+  title: titulo
+  uid:
+    plugin: default_value
+    default_value: 1
+  status:
+    plugin: default_value
+    default_value: 1
+  body/value: texto
+  body/summary: entradilla
+  body/format:
+    plugin: default_value
+    default_value: basic_html
+  path/alias: alias
+  path/pathauto:
+    plugin: default_value
+    default_value: 0
+destination:
+  plugin: 'entity:node'
+  default_bundle: page
+migration_dependencies: {  }
+dependencies:
+  enforced:
+    module:
+      - jllamas_migrate

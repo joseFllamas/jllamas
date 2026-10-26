@@ -1,0 +1,662 @@
+[
+ {
+  "origen": "cuadro/besalu",
+  "destino": "/cuadros/besalu",
+  "id": 1
+ },
+ {
+  "origen": "cuadro/buho",
+  "destino": "/cuadros/buho",
+  "id": 2
+ },
+ {
+  "origen": "cuadro/los-arcos",
+  "destino": "/cuadros/los-arcos",
+  "id": 3
+ },
+ {
+  "origen": "cuadro/montilla-vieja",
+  "destino": "/cuadros/montilla-vieja",
+  "id": 4
+ },
+ {
+  "origen": "cuadro/pescador",
+  "destino": "/cuadros/pescador",
+  "id": 5
+ },
+ {
+  "origen": "cuadro/quedan-pocos",
+  "destino": "/cuadros/quedan-pocos",
+  "id": 6
+ },
+ {
+  "origen": "cuadro/yoli-y-juan",
+  "destino": "/cuadros/yoli-y-juan",
+  "id": 7
+ },
+ {
+  "origen": "cuadro/campesino",
+  "destino": "/cuadros/campesino",
+  "id": 8
+ },
+ {
+  "origen": "cuadro/chica-de-espaldas",
+  "destino": "/cuadros/chica-de-espaldas",
+  "id": 9
+ },
+ {
+  "origen": "cuadro/chica-tumbada",
+  "destino": "/cuadros/chica-tumbada",
+  "id": 10
+ },
+ {
+  "origen": "cuadro/chica-sentada-de-perfil",
+  "destino": "/cuadros/chica-sentada-de-perfil",
+  "id": 11
+ },
+ {
+  "origen": "cuadro/ninas",
+  "destino": "/cuadros/ninas",
+  "id": 12
+ },
+ {
+  "origen": "cuadro/ninos",
+  "destino": "/cuadros/ninos",
+  "id": 13
+ },
+ {
+  "origen": "cuadro/lavi-siscu",
+  "destino": "/cuadros/l-avi-siscu",
+  "id": 14
+ },
+ {
+  "origen": "cuadro/que-rapido-pasa",
+  "destino": "/cuadros/que-rapido-pasa",
+  "id": 15
+ },
+ {
+  "origen": "cuadro/cristo-de-los-faroles",
+  "destino": "/cuadros/cristo-de-los-faroles",
+  "id": 16
+ },
+ {
+  "origen": "cuadro/mama",
+  "destino": "/cuadros/mama",
+  "id": 17
+ },
+ {
+  "origen": "cuadro/beduina",
+  "destino": "/cuadros/beduina",
+  "id": 18
+ },
+ {
+  "origen": "cuadro/aborigen",
+  "destino": "/cuadros/aborigen",
+  "id": 19
+ },
+ {
+  "origen": "cuadro/masai",
+  "destino": "/cuadros/masai",
+  "id": 20
+ },
+ {
+  "origen": "cuadro/novia-india",
+  "destino": "/cuadros/novia-india",
+  "id": 21
+ },
+ {
+  "origen": "cuadro/novia-pakistani",
+  "destino": "/cuadros/novia-pakistani",
+  "id": 22
+ },
+ {
+  "origen": "cuadro/bodegon",
+  "destino": "/cuadros/bodegon",
+  "id": 23
+ },
+ {
+  "origen": "cuadro/int-libreria",
+  "destino": "/cuadros/interior-de-libreria",
+  "id": 24
+ },
+ {
+  "origen": "cuadro/cupido-guaica",
+  "destino": "/cuadros/cupido-guaica",
+  "id": 25
+ },
+ {
+  "origen": "cuadro/la-escuchuela",
+  "destino": "/cuadros/la-escuchuela",
+  "id": 26
+ },
+ {
+  "origen": "cuadro/musher",
+  "destino": "/cuadros/musher",
+  "id": 27
+ },
+ {
+  "origen": "cuadro/ramblas-bcn",
+  "destino": "/cuadros/las-ramblas-barcelona",
+  "id": 28
+ },
+ {
+  "origen": "cuadro/colon-bcn",
+  "destino": "/cuadros/colon-barcelona",
+  "id": 29
+ },
+ {
+  "origen": "cuadro/r1",
+  "destino": "/cuadros/retrato-pop-1",
+  "id": 30
+ },
+ {
+  "origen": "cuadro/r2",
+  "destino": "/cuadros/retrato-pop-2",
+  "id": 31
+ },
+ {
+  "origen": "cuadro/r3",
+  "destino": "/cuadros/retrato-pop-3",
+  "id": 32
+ },
+ {
+  "origen": "cuadro/r4",
+  "destino": "/cuadros/retrato-pop-4",
+  "id": 33
+ },
+ {
+  "origen": "cuadro/r5",
+  "destino": "/cuadros/autorretrato",
+  "id": 34
+ },
+ {
+  "origen": "cuadro/r6",
+  "destino": "/cuadros/retrato-pop-6",
+  "id": 35
+ },
+ {
+  "origen": "cuadro/r7",
+  "destino": "/cuadros/retrato-pop-7",
+  "id": 36
+ },
+ {
+  "origen": "cuadro/r8",
+  "destino": "/cuadros/retrato-pop-8",
+  "id": 37
+ },
+ {
+  "origen": "cuadro/r9",
+  "destino": "/cuadros/retrato-pop-9",
+  "id": 38
+ },
+ {
+  "origen": "cuadro/r10",
+  "destino": "/cuadros/retrato-pop-10",
+  "id": 39
+ },
+ {
+  "origen": "cuadro/r12",
+  "destino": "/cuadros/retrato-pop-12",
+  "id": 40
+ },
+ {
+  "origen": "cuadro/r13",
+  "destino": "/cuadros/retrato-pop-13",
+  "id": 41
+ },
+ {
+  "origen": "cuadro/rp1",
+  "destino": "/cuadros/retrato-de-mascota",
+  "id": 42
+ },
+ {
+  "origen": "cuadro/r14",
+  "destino": "/cuadros/retrato-pop-14",
+  "id": 43
+ },
+ {
+  "origen": "cuadro/r15",
+  "destino": "/cuadros/retrato-pop-15",
+  "id": 44
+ },
+ {
+  "origen": "cuadro/africa",
+  "destino": "/cuadros/africa",
+  "id": 45
+ },
+ {
+  "origen": "cuadro/figura1",
+  "destino": "/cuadros/figura-1",
+  "id": 46
+ },
+ {
+  "origen": "cuadro/figura2",
+  "destino": "/cuadros/figura-2",
+  "id": 47
+ },
+ {
+  "origen": "cuadro/figura3",
+  "destino": "/cuadros/figura-3",
+  "id": 48
+ },
+ {
+  "origen": "cuadro/el-capataz",
+  "destino": "/cuadros/el-capataz",
+  "id": 49
+ },
+ {
+  "origen": "cuadro/dibujo",
+  "destino": "/cuadros/dibujo",
+  "id": 50
+ },
+ {
+  "origen": "cuadro/santa-ma-del-mar-bcn",
+  "destino": "/cuadros/santa-maria-del-mar-barcelona",
+  "id": 51
+ },
+ {
+  "origen": "cuadro/la-pedrera",
+  "destino": "/cuadros/la-pedrera",
+  "id": 52
+ },
+ {
+  "origen": "cuadro/sandreu",
+  "destino": "/cuadros/s-andreu",
+  "id": 53
+ },
+ {
+  "origen": "cuadro/arcos",
+  "destino": "/cuadros/arcos",
+  "id": 54
+ },
+ {
+  "origen": "cuadro/castillo",
+  "destino": "/cuadros/castillo",
+  "id": 55
+ },
+ {
+  "origen": "cuadro/manzanas-bordes",
+  "destino": "/cuadros/manzanas-bordes",
+  "id": 56
+ },
+ {
+  "origen": "cuadro/paseros",
+  "destino": "/cuadros/paseros",
+  "id": 57
+ },
+ {
+  "origen": "cuadro/lucero",
+  "destino": "/cuadros/lucero",
+  "id": 58
+ },
+ {
+  "origen": "cuadro/cordoba",
+  "destino": "/cuadros/cordoba",
+  "id": 59
+ },
+ {
+  "origen": "ilustracio/aranas",
+  "destino": "/ilustraciones/aranas",
+  "id": 60
+ },
+ {
+  "origen": "ilustracio/aranas-2",
+  "destino": "/ilustraciones/aranas-2",
+  "id": 61
+ },
+ {
+  "origen": "ilustracio/infantil",
+  "destino": "/ilustraciones/infantil-1",
+  "id": 62
+ },
+ {
+  "origen": "ilustracio/infantil-2",
+  "destino": "/ilustraciones/infantil-2",
+  "id": 63
+ },
+ {
+  "origen": "ilustracio/infantil-3",
+  "destino": "/ilustraciones/infantil-3",
+  "id": 64
+ },
+ {
+  "origen": "ilustracio/infantil-4",
+  "destino": "/ilustraciones/infantil-4",
+  "id": 65
+ },
+ {
+  "origen": "ilustracio/infantil-5",
+  "destino": "/ilustraciones/infantil-5",
+  "id": 66
+ },
+ {
+  "origen": "ilustracio/infantil-5-0",
+  "destino": "/ilustraciones/infantil-6",
+  "id": 67
+ },
+ {
+  "origen": "ilustracio/iris",
+  "destino": "/ilustraciones/iris",
+  "id": 68
+ },
+ {
+  "origen": "ilustracio/feng-sui",
+  "destino": "/ilustraciones/feng-shui",
+  "id": 69
+ },
+ {
+  "origen": "ilustracio/ruleta",
+  "destino": "/ilustraciones/ruleta",
+  "id": 70
+ },
+ {
+  "origen": "ilustracio/reflexologia",
+  "destino": "/ilustraciones/reflexologia",
+  "id": 71
+ },
+ {
+  "origen": "ilustracio/ilustracion",
+  "destino": "/ilustraciones/ilustracion",
+  "id": 72
+ },
+ {
+  "origen": "ilustracio/manos",
+  "destino": "/ilustraciones/manos",
+  "id": 73
+ },
+ {
+  "origen": "ilustracio/big-ben",
+  "destino": "/ilustraciones/big-ben",
+  "id": 74
+ },
+ {
+  "origen": "ilustracio/puente-londres",
+  "destino": "/ilustraciones/puente-de-londres",
+  "id": 75
+ },
+ {
+  "origen": "ilustracio/ndame",
+  "destino": "/ilustraciones/notre-dame",
+  "id": 76
+ },
+ {
+  "origen": "ilustracio/scirculatorio",
+  "destino": "/ilustraciones/sistema-circulatorio",
+  "id": 77
+ },
+ {
+  "origen": "ilustracio/esqueleto",
+  "destino": "/ilustraciones/esqueleto",
+  "id": 78
+ },
+ {
+  "origen": "ilustracio/musculos",
+  "destino": "/ilustraciones/musculos",
+  "id": 79
+ },
+ {
+  "origen": "ilustracio/corazon",
+  "destino": "/ilustraciones/corazon",
+  "id": 80
+ },
+ {
+  "origen": "ilustracio/craneo",
+  "destino": "/ilustraciones/craneo",
+  "id": 81
+ },
+ {
+  "origen": "ilustracio/x1",
+  "destino": "/ilustraciones/serie-x-1",
+  "id": 82
+ },
+ {
+  "origen": "ilustracio/x2",
+  "destino": "/ilustraciones/serie-x-2",
+  "id": 83
+ },
+ {
+  "origen": "ilustracio/x3",
+  "destino": "/ilustraciones/serie-x-3",
+  "id": 84
+ },
+ {
+  "origen": "ilustracio/x4",
+  "destino": "/ilustraciones/serie-x-4",
+  "id": 85
+ },
+ {
+  "origen": "decoracio/historia-de-la-escritura",
+  "destino": "/decoracion/historia-de-la-escritura",
+  "id": 86
+ },
+ {
+  "origen": "decoracio/ofrenda-comida-al-faraon",
+  "destino": "/decoracion/ofrenda-de-comida-al-faraon",
+  "id": 87
+ },
+ {
+  "origen": "decoracio/figuras-griegas-2",
+  "destino": "/decoracion/figuras-griegas-2",
+  "id": 88
+ },
+ {
+  "origen": "decoracio/tejados-barrio-de-gracia",
+  "destino": "/decoracion/tejados-del-barrio-de-gracia",
+  "id": 89
+ },
+ {
+  "origen": "decoracio/cubilete",
+  "destino": "/decoracion/cubilete",
+  "id": 90
+ },
+ {
+  "origen": "decoracio/bodega",
+  "destino": "/decoracion/bodega",
+  "id": 91
+ },
+ {
+  "origen": "decoracio/toscana",
+  "destino": "/decoracion/toscana",
+  "id": 92
+ },
+ {
+  "origen": "decoracio/puerta",
+  "destino": "/decoracion/puerta",
+  "id": 93
+ },
+ {
+  "origen": "decoracio/puente-rialto-venecia",
+  "destino": "/decoracion/puente-de-rialto-venecia",
+  "id": 94
+ },
+ {
+  "origen": "decoracio/carta-bar-rte",
+  "destino": "/decoracion/carta-de-bar-restaurante",
+  "id": 95
+ },
+ {
+  "origen": "decoracio/puerta-2",
+  "destino": "/decoracion/puerta-2",
+  "id": 96
+ },
+ {
+  "origen": "decoracio/detalle-puerta-2",
+  "destino": "/decoracion/detalle-puerta-2",
+  "id": 97
+ },
+ {
+  "origen": "decoracio/madona",
+  "destino": "/decoracion/madona",
+  "id": 98
+ },
+ {
+  "origen": "decoracio/zoo-infantil",
+  "destino": "/decoracion/zoo-infantil",
+  "id": 99
+ },
+ {
+  "origen": "decoracio/beduinos",
+  "destino": "/decoracion/beduinos",
+  "id": 100
+ },
+ {
+  "origen": "decoracio/butaca1",
+  "destino": "/decoracion/butaca-1",
+  "id": 101
+ },
+ {
+  "origen": "decoracio/butaca-2",
+  "destino": "/decoracion/butaca-2",
+  "id": 102
+ },
+ {
+  "origen": "decoracio/taburete",
+  "destino": "/decoracion/taburete",
+  "id": 103
+ },
+ {
+  "origen": "ilustracio/ilustarcion-tren-para-exposicion-en-supermercados",
+  "destino": "/ilustraciones/tren-navideno",
+  "id": 104
+ },
+ {
+  "origen": "ilustracio/ilustracion-trasera-tren-para-exposicion-en-supermercados",
+  "destino": "/ilustraciones/trasera-del-tren",
+  "id": 105
+ },
+ {
+  "origen": "ilustracio/ilustracion-trasera-trineo-para-exposicion-en-supermercados",
+  "destino": "/ilustraciones/trasera-del-trineo",
+  "id": 106
+ },
+ {
+  "origen": "ilustracio/ilustracion-trineo-para-exposicion-en-supermercados",
+  "destino": "/ilustraciones/trineo-navideno",
+  "id": 107
+ },
+ {
+  "origen": "ilustracio/ilustracion-arbol-navidad-brillante-para-exposicion-en-supermercados",
+  "destino": "/ilustraciones/arbol-de-navidad-1",
+  "id": 108
+ },
+ {
+  "origen": "ilustracio/ilustracion-2-arbol-navidad-brillante-para-exposicion-en-supermercados",
+  "destino": "/ilustraciones/arbol-de-navidad-2",
+  "id": 109
+ },
+ {
+  "origen": "tecnica/acuarela",
+  "destino": "/cuadros?tecnica=acuarela",
+  "id": 110
+ },
+ {
+  "origen": "tecnica/oleo",
+  "destino": "/cuadros?tecnica=oleo",
+  "id": 111
+ },
+ {
+  "origen": "tecnica/plumilla",
+  "destino": "/cuadros?tecnica=plumilla",
+  "id": 112
+ },
+ {
+  "origen": "tecnica/lapiz",
+  "destino": "/cuadros?tecnica=lapiz",
+  "id": 113
+ },
+ {
+  "origen": "tecnica/otras-tecnicas",
+  "destino": "/cuadros?tecnica=retrato-pop",
+  "id": 114
+ },
+ {
+  "origen": "tematica/figura",
+  "destino": "/cuadros?tematica=figura",
+  "id": 115
+ },
+ {
+  "origen": "tematica/paisaje",
+  "destino": "/cuadros?tematica=paisaje",
+  "id": 116
+ },
+ {
+  "origen": "tematica/retrato",
+  "destino": "/cuadros?tematica=retrato",
+  "id": 117
+ },
+ {
+  "origen": "tipos-de-ilustracion/publicidad",
+  "destino": "/ilustraciones?tipo=publicidad",
+  "id": 118
+ },
+ {
+  "origen": "tipos-de-ilustracion/editorial",
+  "destino": "/ilustraciones?tipo=editorial",
+  "id": 119
+ },
+ {
+  "origen": "tipos-de-ilustracion/otros",
+  "destino": "/ilustraciones?tipo=otros",
+  "id": 120
+ },
+ {
+  "origen": "tipos-de-decoracion/negocios-tiendas",
+  "destino": "/decoracion?tipo=negocios-y-tiendas",
+  "id": 121
+ },
+ {
+  "origen": "tipos-de-decoracion/privado",
+  "destino": "/decoracion?tipo=particulares",
+  "id": 122
+ },
+ {
+  "origen": "presentacion-del-pintor-jose-g-llamas",
+  "destino": "/sobre-mi",
+  "id": 123
+ },
+ {
+  "origen": "que-necesitas",
+  "destino": "/encargos",
+  "id": 124
+ },
+ {
+  "origen": "contactame",
+  "destino": "/contacto",
+  "id": 125
+ },
+ {
+  "origen": "banner-home",
+  "destino": "/",
+  "id": 126
+ },
+ {
+  "origen": "tecnica",
+  "destino": "/cuadros",
+  "id": 127
+ },
+ {
+  "origen": "tematicas",
+  "destino": "/cuadros",
+  "id": 128
+ },
+ {
+  "origen": "lista-de-cuadros",
+  "destino": "/cuadros",
+  "id": 129
+ },
+ {
+  "origen": "sitemap",
+  "destino": "/",
+  "id": 130
+ },
+ {
+  "origen": "ilustracio/ilustracion-tren-para-exposicion-en-supermercados",
+  "destino": "/ilustraciones/tren-navideno",
+  "id": 131
+ },
+ {
+  "origen": "ilustracio/ilustracion-tren-para-exposicion-en-supermercados-0",
+  "destino": "/ilustraciones/tren-navideno",
+  "id": 132
+ }
+]

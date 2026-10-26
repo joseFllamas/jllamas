@@ -1,0 +1,18 @@
+uuid: ebdfa4ec-2013-48a5-8c2f-d0e6e80c196b
+langcode: es
+status: true
+dependencies:
+  theme:
+    - jllamas
+id: jllamas_acciones
+theme: jllamas
+region: tabs
+weight: 1
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: jllamas_acciones
+  label_display: '0'
+  provider: core
+visibility: {  }

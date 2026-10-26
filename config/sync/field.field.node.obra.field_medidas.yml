@@ -1,0 +1,19 @@
+uuid: 47ed908b-0894-4406-a32d-dc38842ea3e4
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_medidas
+    - node.type.obra
+id: node.obra.field_medidas
+field_name: field_medidas
+entity_type: node
+bundle: obra
+label: Medidas
+description: 'Por ejemplo: 50 × 60 cm.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

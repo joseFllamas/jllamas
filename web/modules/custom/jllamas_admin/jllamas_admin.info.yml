@@ -1,0 +1,12 @@
+name: 'jllamas: gestión'
+type: module
+description: 'Panel del pintor, listado de obras con acciones (destacar, publicar), formulario de obra simplificado y rol Artista.'
+package: jllamas
+core_version_requirement: ^11
+dependencies:
+  - drupal:node
+  - drupal:taxonomy
+  - drupal:views
+  - dashboard:dashboard
+  - webform:webform
+  - jllamas_site:jllamas_site

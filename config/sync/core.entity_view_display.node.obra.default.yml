@@ -1,0 +1,68 @@
+uuid: 490fd8b2-551f-4856-9732-eae064c583fa
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.obra.body
+    - field.field.node.obra.field_categoria
+    - field.field.node.obra.field_destacada
+    - field.field.node.obra.field_imagen
+    - field.field.node.obra.field_medidas
+    - field.field.node.obra.field_tematica
+    - node.type.obra
+  module:
+    - image
+    - text
+    - user
+id: node.obra.default
+targetEntityType: node
+bundle: obra
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_categoria:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_imagen:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_medidas:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+      link_rel: canonical
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_tematica:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  field_destacada: true
+  langcode: true
+  links: true

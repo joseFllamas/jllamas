@@ -1,0 +1,20 @@
+uuid: ded818b6-848e-4649-9360-9658786b097e
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - jllamas
+id: jllamas_mensajes
+theme: jllamas
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: jllamas_mensajes
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,13 @@
+uuid: e6787c62-2ef1-470f-abf0-e5f948908850
+langcode: es
+status: true
+dependencies: {  }
+id: node__obra
+label: node__obra
+tags:
+  description: '[node:title], [node:field_categoria:entity:name]. Obra de José Gabriel Llamas, pintor e ilustrador por encargo.'
+  og_type: article
+  og_description: '[node:title], [node:field_categoria:entity:name]. Obra de José Gabriel Llamas, pintor e ilustrador por encargo.'
+  og_image: '[node:field_imagen:obra_1600:url]'
+  og_image_alt: '[node:field_imagen:alt]'
+  twitter_cards_image: '[node:field_imagen:obra_1600:url]'

@@ -1,0 +1,16 @@
+uuid: 6345c6fb-5504-4adc-8cf5-ab12ff1bc354
+langcode: es
+status: true
+dependencies:
+  module:
+    - jllamas_admin
+  enforced:
+    module:
+      - jllamas_admin
+_core:
+  default_config_hash: I2depZgIqWGS65et4dgPxziVutx7U7VJvUJ8__brkNw
+id: jllamas_destacar_obra
+label: 'Destacar en Inicio'
+type: node
+plugin: jllamas_destacar_obra
+configuration: {  }

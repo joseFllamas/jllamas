@@ -1,0 +1,244 @@
+/*
+ * CSS del tema jllamas. Mismos tokens y utilidades que el prototipo de Lovable
+ * (plans/nueva_web/lovable-src/src/styles.css), compilado con Tailwind 4:
+ *   npm run build   (dentro de ddev: ddev exec -d /var/www/html/web/themes/custom/jllamas npm run build)
+ */
+@import "tailwindcss" source(none);
+@source "../../templates";
+@source "../../js";
+@source "../../jllamas.theme";
+@source "../../../../../modules/custom/jllamas_site/templates";
+@source "../../../../../modules/custom/jllamas_site/src";
+
+@font-face {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url("../fonts/fraunces-opsz-normal.woff2") format("woff2-variations");
+}
+@font-face {
+  font-family: "Fraunces";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url("../fonts/fraunces-opsz-italic.woff2") format("woff2-variations");
+}
+@font-face {
+  font-family: "Instrument Sans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400 700;
+  src: url("../fonts/instrument-sans-wght-normal.woff2") format("woff2-variations");
+}
+
+@theme inline {
+  --font-display: "Fraunces", Georgia, serif;
+  --font-sans: "Instrument Sans", system-ui, sans-serif;
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: var(--radius);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-viewer: var(--viewer);
+  --color-viewer-foreground: var(--viewer-foreground);
+  --color-paper-deep: var(--paper-deep);
+}
+
+:root {
+  --radius: 2px;
+  --background: oklch(0.958 0.008 80);
+  --foreground: oklch(0.19 0.008 60);
+  --card: oklch(0.975 0.006 80);
+  --primary: oklch(0.53 0.19 25);
+  --primary-foreground: oklch(0.98 0.005 80);
+  --muted: oklch(0.925 0.01 80);
+  --muted-foreground: oklch(0.48 0.012 60);
+  --border: oklch(0.86 0.012 75);
+  --input: oklch(0.8 0.012 75);
+  --ring: oklch(0.53 0.19 25);
+  --viewer: oklch(0.14 0.004 60);
+  --viewer-foreground: oklch(0.93 0.006 80);
+  --paper-deep: oklch(0.925 0.012 78);
+  --ease-gallery: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  html {
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+  }
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+    font-optical-sizing: auto;
+    letter-spacing: -0.02em;
+  }
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 3px;
+  }
+}
+
+/* Sin JavaScript todo se ve: el efecto de aparición solo se aplica con la clase js en html. */
+@utility reveal {
+  .js & {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.9s var(--ease-gallery), transform 0.9s var(--ease-gallery);
+  }
+  .js &.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@utility eyebrow {
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted-foreground);
+}
+
+@utility link-underline {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 1px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  transition: background-size 0.4s var(--ease-gallery);
+  &:hover {
+    background-size: 100% 1px;
+  }
+}
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@keyframes viewer-in {
+  from { opacity: 0; transform: scale(0.94); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.animate-viewer-in { animation: viewer-in 0.5s var(--ease-gallery) both; }
+.animate-fade { animation: fade-in 0.35s ease both; }
+
+/* Imagen de obra: fondo mientras carga y fundido al terminar (lo marca js/jllamas.js). */
+@layer components {
+  .art-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: var(--color-paper-deep);
+    transition: opacity 0.7s ease;
+  }
+  .js .art-img img:not(.is-loaded) {
+    opacity: 0;
+  }
+
+  /* Chips de filtro. */
+  .chip {
+    @apply inline-flex items-center rounded-full border px-4 py-1.5 text-sm transition-colors hover:border-foreground;
+  }
+  .chip.is-active {
+    @apply border-foreground bg-foreground text-background;
+  }
+  .chip.is-empty:not(.is-active) {
+    opacity: 0.4;
+  }
+
+  /* Botón principal. */
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-primary px-6 py-3 text-sm text-primary-foreground transition-opacity hover:opacity-90;
+  }
+
+  /* Texto de páginas editado en el CKEditor. */
+  .prose-jl p + p {
+    margin-top: 1.5rem;
+  }
+  .prose-jl a {
+    @apply link-underline text-foreground;
+  }
+
+  /* Mensajes de Drupal. */
+  .messages-jl {
+    @apply mx-auto mb-6 max-w-[1500px] px-5 md:px-10;
+  }
+  .messages-jl [role="contentinfo"], .messages-jl .messages {
+    @apply border-l-2 border-primary bg-paper-deep px-5 py-4 text-sm;
+  }
+
+  /* Pestañas de edición para el administrador. */
+  .tabs-jl ul {
+    @apply mx-auto flex max-w-[1500px] flex-wrap gap-4 px-5 pt-4 text-xs md:px-10;
+  }
+  .tabs-jl a {
+    @apply eyebrow link-underline;
+  }
+  .tabs-jl a.is-active {
+    color: var(--color-primary);
+  }
+
+  /* Formulario de contacto (Webform): campos solo con línea inferior. */
+  .form-jl .form-item {
+    @apply mb-8;
+  }
+  .form-jl label {
+    @apply eyebrow block;
+  }
+  .form-jl label.form-required::after {
+    content: "";
+  }
+  .form-jl input[type="text"],
+  .form-jl input[type="email"],
+  .form-jl input[type="tel"],
+  .form-jl select,
+  .form-jl textarea {
+    @apply mt-2 w-full border-0 border-b border-input bg-transparent py-3 text-lg outline-none focus:border-primary;
+    border-radius: 0;
+  }
+  .form-jl .webform-flexbox {
+    @apply grid gap-8 md:grid-cols-2;
+  }
+  .form-jl .webform-flexbox .form-item {
+    @apply mb-0;
+  }
+  .form-jl .form-item--error-message, .form-jl .form-item--error .description {
+    @apply mt-2 text-sm text-primary;
+  }
+  .form-jl .form-actions input[type="submit"], .form-jl .form-actions button {
+    @apply cursor-pointer bg-primary px-8 py-4 text-sm text-primary-foreground hover:opacity-90;
+  }
+  .form-jl .description {
+    @apply mt-2 text-sm text-muted-foreground;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .js .reveal { opacity: 1; transform: none; }
+}

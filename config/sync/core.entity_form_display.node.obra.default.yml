@@ -1,0 +1,105 @@
+uuid: 2c3a7ce1-3afb-407a-bbf9-9bb418f8f3ba
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.obra.body
+    - field.field.node.obra.field_categoria
+    - field.field.node.obra.field_destacada
+    - field.field.node.obra.field_imagen
+    - field.field.node.obra.field_medidas
+    - field.field.node.obra.field_tematica
+    - image.style.max_325x325
+    - node.type.obra
+  module:
+    - image
+    - path
+    - text
+id: node.obra.default
+targetEntityType: node
+bundle: obra
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 5
+    region: content
+    settings:
+      rows: 5
+      summary_rows: 2
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_categoria:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_destacada:
+    type: boolean_checkbox
+    weight: 6
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_imagen:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: max_325x325
+    third_party_settings: {  }
+  field_medidas:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 30
+      placeholder: '50 × 60 cm'
+    third_party_settings: {  }
+  field_tematica:
+    type: options_buttons
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 20
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  url_redirects:
+    weight: 50
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  promote: true
+  sticky: true
+  uid: true

@@ -1,0 +1,38 @@
+uuid: 969d30f0-370b-41b5-a052-ec5999d260b1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_imagen
+    - node.type.obra
+  module:
+    - image
+id: node.obra.field_imagen
+field_name: field_imagen
+entity_type: node
+bundle: obra
+label: Imagen
+description: 'La foto de la obra, lo más grande posible (JPG o PNG). Se adapta sola a cada pantalla.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: obras
+  file_extensions: 'png jpg jpeg webp'
+  max_filesize: '30 MB'
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

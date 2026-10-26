@@ -1,0 +1,14 @@
+name: 'jllamas: migración desde Drupal 7'
+type: module
+description: 'Importa categorías, obras, imágenes, páginas y redirecciones de la web antigua.'
+package: jllamas
+core_version_requirement: ^11
+dependencies:
+  - drupal:migrate
+  - migrate_plus:migrate_plus
+  - migrate_tools:migrate_tools
+  - drupal:taxonomy
+  - drupal:node
+  - drupal:image
+  - redirect:redirect
+  - pathauto:pathauto

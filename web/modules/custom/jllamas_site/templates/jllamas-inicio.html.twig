@@ -1,0 +1,137 @@
+{#
+/**
+ * @file
+ * Inicio (routes/index.tsx en Lovable).
+ */
+#}
+<main>
+  {# Hero: titular a la izquierda y obra destacada que cambia cada 6 s. #}
+  <section class="mx-auto grid max-w-[1500px] gap-8 px-5 pb-20 pt-6 md:px-10 lg:grid-cols-[1fr_1.4fr] lg:items-end lg:gap-16">
+    <div class="order-2 lg:order-1 lg:pb-10">
+      <p class="eyebrow">José Gabriel Llamas</p>
+      <h1 class="mt-4 text-5xl font-light leading-[0.95] md:text-7xl xl:text-8xl">
+        Pintura, ilustración y decoración <em class="text-primary">por encargo.</em> Donde estés.
+      </h1>
+      <div class="mt-10 flex flex-wrap gap-6 text-sm">
+        <a href="{{ path('jllamas_site.seccion.cuadros') }}" class="link-underline">Ver obra</a>
+        <a href="{{ path('entity.webform.canonical', {'webform': 'contacto'}) }}" class="link-underline text-primary">Encargar una obra →</a>
+      </div>
+      <p class="mt-8 max-w-sm text-sm text-muted-foreground">
+        Trabajo por encargo para clientes de cualquier lugar: hablamos, acordamos medidas y técnica, y te paso presupuesto cerrado.
+      </p>
+    </div>
+    {% if hero %}
+      <a href="{{ hero|first.url }}" class="relative order-1 block h-[62vh] lg:order-2 lg:h-[80vh]" aria-label="Ver {{ hero|first.titulo }}" data-hero>
+        {% for obra in hero %}
+          {{ obra.imagen }}
+        {% endfor %}
+        <span class="absolute -bottom-7 right-0 text-xs text-muted-foreground" data-hero-pie>{{ hero|first.titulo }} · {{ hero|first.categoria }}</span>
+        <script type="application/json" data-hero-datos>{{ hero|map(o => {url: o.url, titulo: o.titulo, categoria: o.categoria})|json_encode|raw }}</script>
+      </a>
+    {% endif %}
+  </section>
+
+  {# Obras destacadas: fila horizontal que se arrastra. #}
+  {% if destacadas %}
+    <section class="py-16">
+      <div class="mx-auto mb-8 flex max-w-[1500px] items-end justify-between px-5 md:px-10">
+        <h2 class="text-3xl font-light md:text-4xl">Obras destacadas</h2>
+        <span class="eyebrow max-md:hidden">Arrastra →</span>
+      </div>
+      <div class="no-scrollbar flex cursor-grab gap-5 overflow-x-auto px-5 pb-4 select-none active:cursor-grabbing md:gap-8 md:px-10" data-arrastre>
+        {% for obra in destacadas %}
+          <a href="{{ obra.url }}" class="group shrink-0" style="width: calc(min(62vh, 520px) * {{ (obra.ancho / obra.alto)|round(4) }}); max-width: 85vw" draggable="false">
+            <span class="art-img block" style="aspect-ratio: {{ obra.ancho }} / {{ obra.alto }}">{{ obra.imagen }}</span>
+            <span class="mt-3 block font-display text-lg">{{ obra.titulo }}</span>
+            <span class="block text-xs text-muted-foreground">{{ obra.categoria }}</span>
+          </a>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+  {# Secciones con sus subcategorías y recuentos. #}
+  <section class="mx-auto max-w-[1500px] space-y-32 px-5 py-24 md:px-10">
+    {% for s in secciones %}
+      <div class="reveal grid items-center gap-8 md:grid-cols-2 md:gap-16{{ loop.index is even ? ' md:[&>*:first-child]:order-2' }}">
+        <a href="{{ s.url }}" class="mx-auto block w-full max-w-md">
+          {% if s.portada %}
+            <span class="art-img block" style="aspect-ratio: {{ s.portada.ancho }} / {{ s.portada.alto }}">{{ s.portada.imagen }}</span>
+          {% endif %}
+        </a>
+        <div>
+          <p class="eyebrow">{{ s.numero }} · {{ s.total }} obras</p>
+          <h2 class="mt-3 text-5xl font-light md:text-7xl">
+            <a href="{{ s.url }}" class="hover:text-primary">{{ s.titulo }}</a>
+          </h2>
+          {% if s.intro %}
+            <p class="mt-4 max-w-md text-muted-foreground">{{ s.intro }}</p>
+          {% endif %}
+          <div class="mt-8 space-y-6">
+            {% for g in s.grupos %}
+              <div>
+                {% if s.grupos|length > 1 %}
+                  <p class="eyebrow mb-2">Por {{ g.etiqueta|lower }}</p>
+                {% endif %}
+                <ul class="divide-y border-y">
+                  {% for o in g.opciones %}
+                    <li>
+                      <a href="{{ o.url }}" class="group flex items-center justify-between py-2.5 hover:text-primary">
+                        <span>{{ o.etiqueta }}</span>
+                        <span class="text-sm text-muted-foreground group-hover:text-primary">{{ o.total }}</span>
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </section>
+
+  {# Retratos por encargo. #}
+  {% if retratos %}
+    <section class="bg-paper-deep py-24">
+      <div class="mx-auto grid max-w-[1500px] gap-12 px-5 md:px-10 lg:grid-cols-[1fr_1.6fr] lg:items-center">
+        <div>
+          <p class="eyebrow">Destacado</p>
+          <h2 class="mt-3 text-5xl font-light md:text-7xl">Retratos por encargo</h2>
+          <p class="mt-6 max-w-md text-muted-foreground">
+            Retratos pop de colores planos a partir de tus fotos: de personas y también de mascotas. Un regalo único.
+          </p>
+          <a href="{{ path('jllamas_site.retratos') }}" class="btn-primary mt-8">
+            Ver retratos
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+        <div class="grid grid-cols-2 gap-4 md:grid-cols-4">
+          {% for obra in retratos %}
+            <a href="{{ obra.url }}" class="{{ loop.index is even ? 'md:mt-12' }}">
+              <span class="art-img block" style="aspect-ratio: {{ obra.ancho }} / {{ obra.alto }}">{{ obra.imagen }}</span>
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+  {% endif %}
+
+  {# El artista. #}
+  <section class="mx-auto grid max-w-[1500px] gap-12 px-5 py-28 md:grid-cols-[1fr_1.5fr] md:items-center md:px-10">
+    <div class="mx-auto w-full max-w-sm">
+      {% if autor %}
+        <span class="art-img block" style="aspect-ratio: {{ autor.ancho }} / {{ autor.alto }}">{{ autor.imagen }}</span>
+      {% endif %}
+    </div>
+    <div>
+      <p class="eyebrow">El artista</p>
+      <p class="mt-4 font-display text-3xl font-light leading-snug md:text-4xl">
+        Pintor, ilustrador y decorador. Formado en Artes Gráficas y encuadernación de lujo, trabajo desde 1974 en el mundo editorial.
+      </p>
+      <a href="{{ path('entity.node.canonical', {'node': 200}) }}" class="mt-8 inline-block link-underline">Sobre mí →</a>
+    </div>
+  </section>
+
+  {{ proceso }}
+</main>

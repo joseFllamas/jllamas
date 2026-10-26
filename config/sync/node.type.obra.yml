@@ -1,0 +1,11 @@
+uuid: 5e94409f-cb08-4999-b2b8-55d88cd08611
+langcode: es
+status: true
+dependencies: {  }
+name: Obra
+type: obra
+description: 'Un cuadro, una ilustración o un trabajo de decoración.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

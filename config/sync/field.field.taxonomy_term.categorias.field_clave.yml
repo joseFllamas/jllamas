@@ -1,0 +1,19 @@
+uuid: 9066be9c-314a-4998-ba83-5a821b1924b2
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_clave
+    - taxonomy.vocabulary.categorias
+id: taxonomy_term.categorias.field_clave
+field_name: field_clave
+entity_type: taxonomy_term
+bundle: categorias
+label: 'Clave en la URL'
+description: 'Se usa en las direcciones y los filtros (por ejemplo, acuarela). Si se deja vacía se genera a partir del nombre.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

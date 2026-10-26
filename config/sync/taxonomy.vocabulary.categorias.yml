@@ -1,0 +1,9 @@
+uuid: 4a9e0e0b-160d-4d0a-bc88-f2f2aaa862ed
+langcode: es
+status: true
+dependencies: {  }
+name: Categorías
+vid: categorias
+description: 'Secciones de la web (Cuadros, Ilustraciones, Decoración) y, dentro de cada una, sus técnicas o tipos.'
+weight: 0
+new_revision: false

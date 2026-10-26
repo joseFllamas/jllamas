@@ -1,0 +1,16 @@
+{
+  "name": "jllamas-theme",
+  "private": true,
+  "description": "CSS del tema jllamas (Tailwind 4) y fuentes alojadas en el servidor.",
+  "scripts": {
+    "build": "tailwindcss -i ./css/src/main.css -o ./css/main.css --minify",
+    "watch": "tailwindcss -i ./css/src/main.css -o ./css/main.css --watch",
+    "fonts": "node scripts/copiar-fuentes.mjs"
+  },
+  "devDependencies": {
+    "@fontsource-variable/fraunces": "^5.2.5",
+    "@fontsource-variable/instrument-sans": "^5.2.5",
+    "@tailwindcss/cli": "^4.1.0",
+    "tailwindcss": "^4.1.0"
+  }
+}

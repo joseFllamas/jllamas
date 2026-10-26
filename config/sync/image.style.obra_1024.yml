@@ -1,0 +1,21 @@
+uuid: 5b226c62-daf1-46a5-b816-5f0cda51d7b0
+langcode: es
+status: true
+dependencies: {  }
+name: obra_1024
+label: 'Obra 1024 px'
+effects:
+  8ae8f180-b45c-4c19-8be9-211e29192403:
+    uuid: 8ae8f180-b45c-4c19-8be9-211e29192403
+    id: image_scale
+    weight: 0
+    data:
+      width: 1024
+      height: null
+      upscale: false
+  00f072fc-2898-4b4e-8811-e18be16ae9b2:
+    uuid: 00f072fc-2898-4b4e-8811-e18be16ae9b2
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp

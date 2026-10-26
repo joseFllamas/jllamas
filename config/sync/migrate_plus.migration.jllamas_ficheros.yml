@@ -1,0 +1,80 @@
+uuid: 1e31ddb3-4020-491c-854d-e02cf37ba785
+langcode: es
+status: true
+dependencies:
+  enforced:
+    module:
+      - jllamas_migrate
+_core:
+  default_config_hash: ux6WAmGn8ES3GLndl5b1zPWXNW4QU2ijZ36hftwkuJU
+id: jllamas_ficheros
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: jllamas
+label: 'Imágenes originales de las obras'
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  data_parser_plugin: json
+  urls:
+    - modules/custom/jllamas_migrate/data/obras.json
+  item_selector: ''
+  fields:
+    -
+      name: nid
+      label: 'Nid en Drupal 7'
+      selector: nid
+    -
+      name: file
+      label: 'Ruta en Drupal 7'
+      selector: file
+    -
+      name: destino
+      label: 'Nombre del fichero'
+      selector: destino
+    -
+      name: created
+      label: Fecha
+      selector: created
+  ids:
+    nid:
+      type: integer
+  constants:
+    source_base: /var/www/html/migrate-source/files
+    dest_base: 'public://obras'
+process:
+  source_full_path:
+    plugin: concat
+    source:
+      - constants/source_base
+      - file
+    delimiter: /
+  destination_full_path:
+    plugin: concat
+    source:
+      - constants/dest_base
+      - destino
+    delimiter: /
+  uri:
+    plugin: file_copy
+    source:
+      - '@source_full_path'
+      - '@destination_full_path'
+    file_exists: replace
+    move: false
+  filename: destino
+  uid:
+    plugin: default_value
+    default_value: 1
+  status:
+    plugin: default_value
+    default_value: 1
+  created: created
+  changed: created
+destination:
+  plugin: 'entity:file'
+idMap: {  }
+migration_dependencies: {  }
+include: null

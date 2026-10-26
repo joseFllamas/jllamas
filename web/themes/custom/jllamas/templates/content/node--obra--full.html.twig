@@ -1,0 +1,80 @@
+{#
+/**
+ * @file
+ * Ficha de obra (ObraDetail en Lovable).
+ *
+ * Los datos (jl) los prepara jllamas_site (ThemeHooks::datosObra).
+ */
+#}
+<main class="mx-auto max-w-[1500px] px-5 md:px-10">
+  {% if jl.seccion %}
+    <nav class="py-6 text-sm text-muted-foreground" aria-label="Migas">
+      <a href="{{ jl.seccion.url }}" class="link-underline">{{ jl.seccion.titulo }}</a>
+      {% if jl.categoria %}
+        <span class="mx-2">/</span>
+        <a href="{{ jl.categoria.url }}" class="link-underline">{{ jl.categoria.titulo }}</a>
+      {% endif %}
+    </nav>
+  {% endif %}
+
+  <div class="grid gap-10 lg:grid-cols-[minmax(0,1fr)_340px] lg:gap-16">
+    <button type="button" class="group relative mx-auto block w-full cursor-zoom-in" style="max-width: calc(78vh * {{ jl.proporcion }})" aria-label="Ver a pantalla completa" data-visor="{{ jl.imagen_grande }}" data-visor-titulo="{{ node.label }}">
+      <span class="art-img block" style="aspect-ratio: {{ jl.proporcion }}">{{ jl.imagen }}</span>
+      <span class="absolute right-3 top-3 rounded-full bg-background/80 p-2 opacity-0 transition-opacity group-hover:opacity-100">
+        <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+      </span>
+    </button>
+
+    <aside class="lg:sticky lg:top-28 lg:self-start">
+      {% if jl.seccion %}
+        <p class="eyebrow">{{ jl.seccion.singular }}</p>
+      {% endif %}
+      <h1 class="mt-2 text-5xl font-light leading-none md:text-6xl">{{ node.label }}</h1>
+      {% if jl.datos %}
+        <dl class="mt-8 space-y-3 border-t pt-6 text-sm">
+          {% for d in jl.datos %}
+            <div class="flex justify-between gap-4">
+              <dt class="text-muted-foreground">{{ d.etiqueta }}</dt>
+              <dd class="text-right">{{ d.valor }}</dd>
+            </div>
+          {% endfor %}
+        </dl>
+      {% endif %}
+      {% if jl.descripcion %}
+        <div class="mt-6 leading-relaxed text-muted-foreground">{{ jl.descripcion }}</div>
+      {% endif %}
+
+      <div class="mt-10 border-t pt-6">
+        <p class="font-display text-2xl">¿Quieres algo así?</p>
+        <a href="{{ jl.url_encargo }}" class="btn-primary mt-4">
+          Encárgalo
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      {% if jl.anterior %}
+        <div class="mt-10 flex justify-between gap-4 border-t pt-6 text-sm">
+          <a href="{{ jl.anterior.url }}" class="flex items-center gap-2 link-underline" rel="prev">
+            <svg class="h-4 w-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
+            {{ jl.anterior.titulo }}
+          </a>
+          <a href="{{ jl.siguiente.url }}" class="flex items-center gap-2 text-right link-underline" rel="next">
+            {{ jl.siguiente.titulo }}
+            <svg class="h-4 w-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+      {% endif %}
+    </aside>
+  </div>
+
+  {% if jl.relacionadas %}
+    <section class="mt-28">
+      <h2 class="mb-10 text-4xl font-light">{{ jl.titulo_relacionadas }}</h2>
+      <div class="columns-2 gap-5 md:columns-3 md:gap-8 xl:columns-4">
+        {% for obra in jl.relacionadas %}
+          {{ include('@jllamas_site/jllamas-tarjeta.html.twig', {obra: obra}) }}
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+</main>

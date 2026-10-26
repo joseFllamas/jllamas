@@ -1,0 +1,20 @@
+uuid: 023ff3c5-c02d-4297-998f-3a8896c0d3f4
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - jllamas
+id: jllamas_contenido
+theme: jllamas
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: jllamas_contenido
+  label_display: '0'
+  provider: system
+visibility: {  }

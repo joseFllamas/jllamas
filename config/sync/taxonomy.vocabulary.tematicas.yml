@@ -1,0 +1,9 @@
+uuid: ccbf7529-a551-47af-86bf-1e2854fff028
+langcode: es
+status: true
+dependencies: {  }
+name: Temáticas
+vid: tematicas
+description: 'Temas de los cuadros: Paisaje, Retrato, Figura.'
+weight: 0
+new_revision: false

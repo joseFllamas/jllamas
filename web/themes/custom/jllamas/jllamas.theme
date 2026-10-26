@@ -1,0 +1,75 @@
+<?php
+
+/**
+ * @file
+ * Funciones del tema jllamas.
+ */
+
+declare(strict_types=1);
+
+use Drupal\Core\Url;
+
+/**
+ * Implements hook_preprocess_html().
+ */
+function jllamas_preprocess_html(array &$variables): void {
+  // Las fuentes se precargan para que el titular no cambie de letra al cargar.
+  $theme_path = '/' . \Drupal::service('extension.list.theme')->getPath('jllamas');
+  foreach (['fraunces-opsz-normal', 'instrument-sans-wght-normal'] as $font) {
+    $variables['#attached']['html_head'][] = [
+      [
+        '#tag' => 'link',
+        '#attributes' => [
+          'rel' => 'preload',
+          'href' => $theme_path . '/fonts/' . $font . '.woff2',
+          'as' => 'font',
+          'type' => 'font/woff2',
+          'crossorigin' => 'anonymous',
+        ],
+      ],
+      'jllamas_font_' . $font,
+    ];
+  }
+}
+
+/**
+ * Implements hook_preprocess_page().
+ *
+ * Menú principal para la cabecera, el menú de móvil y el pie, y si la página
+ * pinta su propio título (Inicio, secciones, fichas y páginas con diseño).
+ */
+function jllamas_preprocess_page(array &$variables): void {
+  $menu_tree = \Drupal::menuTree();
+  $parameters = $menu_tree->getCurrentRouteMenuTreeParameters('main');
+  $parameters->setMaxDepth(1);
+  $tree = $menu_tree->load('main', $parameters);
+  $tree = $menu_tree->transform($tree, [
+    ['callable' => 'menu.default_tree_manipulators:checkAccess'],
+    ['callable' => 'menu.default_tree_manipulators:generateIndexAndSort'],
+  ]);
+  $current = \Drupal::request()->getPathInfo();
+  $links = [];
+  foreach ($tree as $element) {
+    if (!$element->link->isEnabled()) {
+      continue;
+    }
+    $url = $element->link->getUrlObject()->toString();
+    $links[] = [
+      'titulo' => $element->link->getTitle(),
+      'url' => $url,
+      'activo' => $element->inActiveTrail || $url === $current || ($url !== '/' && str_starts_with($current, $url . '/')),
+      'solo_pie' => (bool) ($element->link->getOptions()['attributes']['data-solo-pie'] ?? FALSE),
+    ];
+  }
+  $variables['menu'] = $links;
+  $variables['url_contacto'] = Url::fromUserInput('/contacto')->toString();
+  $variables['anio'] = date('Y');
+  $variables['#cache']['contexts'][] = 'url.path';
+  $variables['#cache']['tags'][] = 'config:system.menu.main';
+
+  $route = \Drupal::routeMatch()->getRouteName() ?? '';
+  $propio = str_starts_with($route, 'jllamas_site.')
+    || $route === 'entity.node.canonical'
+    || $route === 'entity.webform.canonical';
+  $variables['mostrar_titulo'] = !$propio && !\Drupal::service('path.matcher')->isFrontPage();
+}

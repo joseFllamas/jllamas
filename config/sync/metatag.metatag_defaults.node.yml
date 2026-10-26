@@ -1,0 +1,14 @@
+uuid: 4e6f8d50-aa6e-43c3-8822-4a8c04fa4996
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rpwvgyEURXLz_JjgMCrkS1rUv-0k3L79BpO-ReN7fDI
+id: node
+label: Contenido
+tags:
+  title: '[node:title] | jllamas, José Gabriel Llamas'
+  description: '[node:summary]'
+  canonical_url: '[node:url]'
+  og_title: '[node:title] | jllamas, José Gabriel Llamas'
+  og_description: '[node:summary]'

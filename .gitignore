@@ -1,0 +1,30 @@
+# Dependencias de Composer y npm.
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+/web/libraries/
+node_modules/
+
+# Ficheros subidos y ajustes locales.
+/web/sites/*/files/php/
+/web/sites/*/files/js/
+/web/sites/*/files/css/
+/web/sites/*/private/
+/web/sites/*/settings.ddev.php
+/web/sites/*/settings.local.php
+
+# Imágenes originales para la migración (vienen de jllamas-d7).
+/migrate-source/files/
+
+# Entorno local de ddev.
+/.ddev/
+/recipes/
+/scripts/
+# Ficheros de Claude Code.
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+
+.DS_Store

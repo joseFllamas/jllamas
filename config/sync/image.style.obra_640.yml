@@ -1,0 +1,21 @@
+uuid: 5c7e842f-c3fa-4686-bddf-6f6c44dd4ba3
+langcode: es
+status: true
+dependencies: {  }
+name: obra_640
+label: 'Obra 640 px'
+effects:
+  14bea029-2119-4231-83f9-9cd15711ff41:
+    uuid: 14bea029-2119-4231-83f9-9cd15711ff41
+    id: image_scale
+    weight: 0
+    data:
+      width: 640
+      height: null
+      upscale: false
+  9e08193e-fe87-4dd2-aa9d-361745153848:
+    uuid: 9e08193e-fe87-4dd2-aa9d-361745153848
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp

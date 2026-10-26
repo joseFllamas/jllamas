@@ -1,0 +1,48 @@
+uuid: c00f4180-f9cd-418b-b329-b0ceb67869de
+langcode: es
+status: true
+dependencies:
+  enforced:
+    module:
+      - jllamas_migrate
+_core:
+  default_config_hash: IlRGuOOFpYmRNpTvfuz8AFFnZo-d4P0Rhq2cBhZDZes
+id: jllamas_tematicas
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: jllamas
+label: 'Temáticas de los cuadros'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      clave: paisaje
+      nombre: Paisaje
+      peso: 0
+    -
+      clave: retrato
+      nombre: Retrato
+      peso: 1
+    -
+      clave: figura
+      nombre: Figura
+      peso: 2
+  ids:
+    clave:
+      type: string
+process:
+  vid:
+    plugin: default_value
+    default_value: tematicas
+  langcode:
+    plugin: default_value
+    default_value: es
+  name: nombre
+  weight: peso
+destination:
+  plugin: 'entity:taxonomy_term'
+idMap: {  }
+migration_dependencies: {  }
+include: null

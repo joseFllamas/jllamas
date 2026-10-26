@@ -1,0 +1,83 @@
+id: jllamas_categorias
+label: 'Categorías (secciones, técnicas y tipos)'
+migration_group: jllamas
+source:
+  plugin: embedded_data
+  data_rows:
+    - clave: cuadros
+      nombre: Cuadros
+      padre: ''
+      peso: 0
+      intro: 'Acuarela, óleo, plumilla, lápiz y retrato pop. Paisajes, retratos y figura.'
+      etiqueta: Técnica
+      singular: Cuadro
+      portada:
+        - target_id: 40
+    - clave: ilustraciones
+      nombre: Ilustraciones
+      padre: ''
+      peso: 1
+      intro: 'Ilustración editorial, publicitaria y de divulgación.'
+      etiqueta: Tipo
+      singular: Ilustración
+      portada:
+        - target_id: 90
+    - clave: decoracion
+      nombre: Decoración
+      padre: ''
+      peso: 2
+      intro: 'Murales y decoración para locales, tiendas y casas particulares. También restauración de muebles.'
+      etiqueta: Tipo
+      singular: Decoración
+      portada:
+        - target_id: 111
+    - { clave: acuarela, nombre: Acuarela, padre: cuadros, peso: 0 }
+    - { clave: oleo, nombre: Óleo, padre: cuadros, peso: 1 }
+    - { clave: plumilla, nombre: Plumilla, padre: cuadros, peso: 2 }
+    - { clave: lapiz, nombre: Lápiz, padre: cuadros, peso: 3 }
+    - clave: retrato-pop
+      nombre: Retrato pop
+      padre: cuadros
+      peso: 4
+      portada:
+        - target_id: 52
+        - target_id: 64
+        - target_id: 54
+        - target_id: 63
+    - { clave: editorial, nombre: Editorial, padre: ilustraciones, peso: 0 }
+    - { clave: publicidad, nombre: Publicidad, padre: ilustraciones, peso: 1 }
+    - { clave: otros, nombre: Otros, padre: ilustraciones, peso: 2 }
+    - { clave: negocios-y-tiendas, nombre: Negocios y tiendas, padre: decoracion, peso: 0 }
+    - { clave: particulares, nombre: Particulares, padre: decoracion, peso: 1 }
+  ids:
+    clave:
+      type: string
+process:
+  vid:
+    plugin: default_value
+    default_value: categorias
+  langcode:
+    plugin: default_value
+    default_value: es
+  name: nombre
+  field_clave: clave
+  weight: peso
+  parent:
+    - plugin: skip_on_empty
+      method: process
+      source: padre
+    - plugin: migration_lookup
+      migration: jllamas_categorias
+      no_stub: true
+  field_intro: intro
+  field_etiqueta_filtro: etiqueta
+  field_singular: singular
+  # Las obras conservan el nid de Drupal 7, así que la referencia se puede fijar aquí.
+  field_obras_portada: portada
+destination:
+  plugin: 'entity:taxonomy_term'
+migration_dependencies: {  }
+dependencies:
+  enforced:
+    module:
+      - jllamas_migrate

@@ -1,0 +1,26 @@
+uuid: 5684656c-809e-4f4b-b732-832990d96b40
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_obras_portada
+    - taxonomy.vocabulary.categorias
+id: taxonomy_term.categorias.field_obras_portada
+field_name: field_obras_portada
+entity_type: taxonomy_term
+bundle: categorias
+label: 'Obras de portada'
+description: 'En una sección, la primera obra es su imagen en Inicio. En Retrato pop, las cuatro obras del bloque de retratos de Inicio.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      obra: obra
+    sort:
+      field: title
+      direction: ASC
+field_type: entity_reference
